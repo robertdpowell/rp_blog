@@ -2,6 +2,7 @@
 layout: fullpost
 title: Advanced Deployment Pipeline Techniques
 summary: My key takeaways from Dave Farley's 'Advanced Deployment Pipeline  Techniques' Masterclass seminar, part of GOTO Copenhagen 2020.
+series: 
 ---
 
 Jez Humble and Dave Farley's 'Continuous Delivery' book first introduced me to many of the concepts around Lean IT, continuous integration and the deployment pipeline. It remains a permanent fixture on my office desk and I dip into it regularly, both for inspiration and for pointers on how to tackle specific challenges. Dave Farley has been quite active on Twitter recently (and [YouTube](https://www.youtube.com/channel/UCCfqyGl3nq_V0bo64CjZh8g)) and it was his feed where I saw this 'Advanced Deployment Pipeline Techniques' masterclass advertised. Without much hesitation, I enrolled myself and two of my team on to the course.

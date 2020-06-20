@@ -1,13 +1,23 @@
 <section id="archive">
   <div class="container py-3">
     <div class="row">
-      <div class="col">
+      <div class="col-sm-6">
         <h2 class="text-primary">ARCHIVE</h2>
         <ul class="postlist">
           {% for post in site.posts %}
             <li>
               <a class="uppercase" href="{{ post.url | prepend: site.baseurl }}" >{{ post.title }}</a> -
                <span>{{ post.date | date: "%b %d, %Y" }}</span>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <h2 class="text-primary">PROJECTS</h2>
+        <ul class="postlist">
+          {% for project in site.projects %}
+            <li>
+              <a class="uppercase" href="{{ post.url | prepend: site.baseurl }}" >{{ post.title }}</a> -
             </li>
           {% endfor %}
         </ul>

@@ -1,0 +1,38 @@
+I"`<p>I first came across Marty Cagan’s work in 2010 when I was working on delivery of a new product for the education sector. Product management as a discipline was still very new to me at that time (the product delivery was being led by a US based tech company where it was far better established) and yet when I read his book <a href="https://www.amazon.co.uk/Inspired-Create-Products-Customers-Love/dp/0981690408/ref=sr_1_2?adgrpid=58662702852&amp;dchild=1&amp;gclid=EAIaIQobChMIqIWPzqaW6gIVWIGyCh2r_wliEAAYAiAAEgLQ6vD_BwE&amp;hvadid=259059665010&amp;hvdev=c&amp;hvlocphy=9045371&amp;hvnetw=g&amp;hvqmt=e&amp;hvrand=18251955675721427072&amp;hvtargid=kwd-312525726860&amp;hydadcr=24427_1748929&amp;keywords=inspired+marty+cagan&amp;qid=1592859118&amp;sr=8-2&amp;tag=googhydr-21">Inspired (first edition)</a>, it all made so much sense. I devoured all the articles he and his colleagues at SVPG put up on their <a href="https://svpg.com/">website</a> and a lot of what I learned in those formative years still have a strong bearing on how I approach product work today, 10 years later.</p>
+
+<p>In this post I will share my key takeaways from the second edition of <a href="https://www.amazon.co.uk/Inspired-Create-Tech-Products-Customers/dp/1119387507/ref=sr_1_1?adgrpid=58662702852&amp;dchild=1&amp;gclid=CjwKCAjwrcH3BRApEiwAxjdPTRr8JbfUduHZLKp5WcA-Xi_ucKkNXyewHTvSjria-kvSVbq1OamGShoC-S8QAvD_BwE&amp;hvadid=259059663279&amp;hvdev=c&amp;hvlocphy=9045371&amp;hvnetw=g&amp;hvqmt=e&amp;hvrand=3068208009696466480&amp;hvtargid=kwd-312525726860&amp;hydadcr=24427_1816075&amp;keywords=inspired+marty+cagan&amp;qid=1592857942&amp;sr=8-1&amp;tag=googhydr-21">Cagan’s Inspired book</a>Inspired and his ‘How to Create Products Customers Love’ workshop that I attended recently. For anyone involved in Product Management I <strong>HIGHLY</strong> recommend you read/listen to the book and if possible, book yourself on to one of his workshops - both are worth every penny. For a flavour, here is a link to a great talk of his on <a href="https://youtu.be/9dccd8lihpQ">YouTube</a></p>
+
+<h4 id="book-part-1-lessons-from-top-tech-companies">BOOK PART 1: Lessons from top tech companies</h4>
+
+<p>Cagan opens by sharing an anecdote from his early career which saw his team deliver a release to market. Despite much internal fanfare and celebration, it failed to register any impact with the market. This is a prelude to a lot of what comes next - how to maximise our chances of discovering then delivering product that <strong>customers actually want</strong> and avoid wasting our time delivering product that does not deliver value (after all, life is too short to deliver poor products).</p>
+
+<p>A serious challenge in delivering valuable products to customers is the process by which the vast majority of companies goes about it. This process seems predicated on some false beliefs</p>
+
+<ol>
+  <li>We know what our customers want</li>
+  <li>We can accurately provide estimates upfront regarding how much it will cost us to deliver the product, and what the return on investment will be (a.k.a the Business Case)</li>
+  <li>Most of the initiatives on our roadmap will deliver the outputs that our business needs.</li>
+</ol>
+
+<p>In reality, Cagan challenges, we cannot reliably provide upfront estimes of cost and ROI (how can we know what we don’t know?)and most of our ideas will not deliver the outcomes we hoped for. By following such a process we are wasting time and effort that could have been invested in more fruitful initiatives (the opportunity cost).</p>
+
+<p>Cagan argues that the most successful companies are those that look past specific Agile implementations and instead adopt some of the more fundamental principes that underpin these movements. These principles are central to Cagan’s recommended approach to product management:-</p>
+
+<ol>
+  <li>Address risk early - value, usability, feasibility, viability risks</li>
+  <li>Define and design collaboratively - Product Management, UX, Engineering</li>
+  <li>Solve problems to deliver outcomes (not outputs) - how will we know we’ve been successful?</li>
+</ol>
+
+<p>Cagan boils down his recommended process into two key phases</p>
+
+<p><img class="blog-image" src="https://robertdpowell.github.io/rp_blog/img/discovery_delivery.png" /></p>
+
+<ol>
+  <li>Discovery - where we discover the product to be built by addressing the four types of risk to arrive at ideas worth pursuing</li>
+  <li>Delivery - where we build and deliver the product ideas we validated in Discovery to achieve product/market fit and deliver against our product strategy.</li>
+</ol>
+
+<p>We’ll explore some of these ideas further in the next post in this series.</p>
+
+:ET

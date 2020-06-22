@@ -2767,7 +2767,7 @@ a.text-dark:hover, a.text-dark:focus { color: #1d2124 !important; }
 
 .blog-image { width: 100%; height: auto; }
 
-.copytext { padding-right: 15px; }
+.copytext { padding-right: 30px; }
 
 .postlist { padding-left: 0; list-style-type: none; }
 

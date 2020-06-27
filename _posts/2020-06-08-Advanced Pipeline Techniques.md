@@ -1,5 +1,5 @@
 ---
-layout: fullpost
+layout: default
 title: Advanced Deployment Pipeline Techniques
 summary: My key takeaways from Dave Farley's 'Advanced Deployment Pipeline  Techniques' Masterclass seminar, part of GOTO Copenhagen 2020.
 series: 

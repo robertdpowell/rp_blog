@@ -1,5 +1,5 @@
 ---
-layout: fullpost
+layout: default
 title: Inspired by Cagan - Book and Workshop (Part 1)
 summary: My summary and key takeaways from Marty Cagan's book Inspired (Second Edition) and his workshop 'How to create products customers love' that I attended in London. 
 series: Product Management, Inspired

@@ -13,7 +13,7 @@ I devoured all the articles he and his colleagues at SVPG put up on their [websi
 
 In this post I will share my key takeaways from the [second edition](https://www.amazon.co.uk/Inspired-Create-Tech-Products-Customers/dp/1119387507/ref=sr_1_1?adgrpid=58662702852&dchild=1&gclid=CjwKCAjwrcH3BRApEiwAxjdPTRr8JbfUduHZLKp5WcA-Xi_ucKkNXyewHTvSjria-kvSVbq1OamGShoC-S8QAvD_BwE&hvadid=259059663279&hvdev=c&hvlocphy=9045371&hvnetw=g&hvqmt=e&hvrand=3068208009696466480&hvtargid=kwd-312525726860&hydadcr=24427_1816075&keywords=inspired+marty+cagan&qid=1592857942&sr=8-1&tag=googhydr-21) of Cagan's Inspired book and his 'How to Create Products Customers Love' workshop that I attended recently in London. For anyone involved in Product Management I **HIGHLY** recommend you read/listen to the book and if possible, book yourself on to one of his workshops - both are worth every penny. For a flavour, here is a link to a great talk of his on [YouTube](https://youtu.be/9dccd8lihpQ).
 
-
+<br>
 #### BOOK PART 1: Lessons from top tech companies
 
 
@@ -22,31 +22,31 @@ Cagan opens by sharing an anecdote from his early career which saw his team deli
 
 A serious challenge in delivering valuable products to customers is the process by which the vast majority of companies goes about it. This process seems predicated on some false beliefs
 
-
+<br>
 1. We know what our customers want (we often don't)
 2. We can accurately provide business case estimates upfront regarding how much it will cost us to deliver the product, and what the return on investment will be (we often can't) 
 3. Most of the initiatives on our roadmap will deliver the outputs that our business needs (most won't)
 
-
+<br>
 In reality, Cagan challenges, we cannot reliably provide upfront estimes of cost and ROI (how can we know what we don't know?)and most of our ideas will not deliver the outcomes we hoped for. By following such a process we are wasting time and effort that could have been invested in more fruitful initiatives (the opportunity cost).
 
 
 Cagan argues that the most successful companies are those that look past specific Agile implementations and instead adopt some of the more fundamental principes that underpin these movements. These principles are central to Cagan's recommended approach to product management:-
 
-
+<br>
 1. **Address risk early** - value, usability, feasibility, viability risks
 2. **Define and design collaboratively** - Product Management, UX, Engineering
 3. **Solve problems to deliver outcomes (not outputs)** - how will we know we've been successful?
 
-
+<br>
 Cagan boils down his recommended process into two key phases
 
 <p><img class="blog-image" src="https://robertdpowell.github.io/rp_blog/img/discovery_delivery.png"/></p>
-
+<br>
 1. **Discovery** - where we discover the product to be built by addressing the four types of risk to arrive at ideas worth pursuing
 2. **Delivery** - where we build and deliver the product ideas we validated in Discovery to achieve product/market fit and deliver against our product strategy.
 
-
+<br>
 We'll explore some of these ideas further in the next post in this series.
 
 

@@ -20,15 +20,15 @@ series: Product Management
 
 * A **reduction in active work** can help to sharpen focus, as can **making WIP visible**. **Reducing batch size** cuts WIP and speeds up feedback which improves cycle time, quality and efficiency.
 
-* Batch size should strike a good balance between **transaction costs and holding costs**. In software/product development, this is the difference between large batches of code every few months to testing smaller patchers a few times a day.
+* Batch size should strike a good balance between **transaction costs and holding costs**. In software/product development, this is the difference between large batches of code every few months to testing smaller batches a few times a day.
 
-* Product work is highly variable and so trying to obstinately follow a plan is not appropriate. Plans should be treated as a **hypotheses** that are subject to **continuous evolution as we continuously learn**.
+* Product work is highly variable and so trying to obstinately follow a plan is not appropriate. Plans should be treated as **hypotheses** that are subject to **continuous evolution as we continuously learn**.
 
-* **Less can be more**. 'Simplicity is the ultimate sophistication' - Leonardo da Vinci
+* **Less can be more**. 'Simplicity is the ultimate sophistication' - Leonardo da Vinci.
 
 * Problem definition is the hardest and most important part of the innovation process. **Invest time here** as it sets good context for everything that follows.
 
-* Users usually  want a solution that **'just works'**. 
+* Users usually want a solution that **'just works'**. 
 
 * The push to 'get it right first time' should be replaced with a **tolerance of 'getting it wrong first time'**. Getting it wrong early is cheaper than finding a problem much later on when the cake is almost baked.
 

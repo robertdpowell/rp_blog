@@ -40,6 +40,7 @@ published: false
 ## PRODUCT TEAMS
 
 * "We need teams of missionaries, not mercenaries" - John Doerr.  Mercenaries build what they are told to, Missionaries believe in the vision and apply their skills to solve problems.
+
 * Teams should be given clear objectives and are empowered to deliver against these objectives.
 
 

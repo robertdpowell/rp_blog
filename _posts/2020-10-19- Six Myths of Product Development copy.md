@@ -2,9 +2,10 @@
 layout: fullpost
 title: 6 Myths of Product Development
 summary: >
-    My key takeaways from the HBR article '6 Myths of Product Development. 
+    My notes from the HBR article '6 Myths of Product Development. 
     https://hbr.org/2012/05/six-myths-of-product-development
 series: Product Management
+published: true
 
 ---
 

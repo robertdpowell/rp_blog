@@ -2,14 +2,13 @@
 layout: fullpost
 title: 6 Myths of Product Development
 summary: >
-    My notes from the HBR article '6 Myths of Product Development. 
-    https://hbr.org/2012/05/six-myths-of-product-development
+    My notes from the HBR article '6 Myths of Product Development'. 
 series: notes
 published: true
 
 ---
 
-
+Link to article --> [here](https://hbr.org/2012/05/six-myths-of-product-development)
 
 * **Product development is not analogous to manufacturing** - tasks are (mostly) highly variable and not predictable. Adopting a factory approach to product development is counter-productive.
 

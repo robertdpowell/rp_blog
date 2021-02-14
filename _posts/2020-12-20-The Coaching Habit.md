@@ -1,12 +1,12 @@
 ---
 layout: fullpost
-title: Coaching
-summary: This explainer focuses on the practices of coaching.
-published: false
+title: The Coaching Habit
+summary: Key takeaways from Michael Bungay Stanier's book, 'The Coaching Habit'.
+published: true
 
 ---
 
-## COACHING QUESTIONS
+#### COACHING QUESTIONS
 
 *  "What's on your mind?"
 
@@ -27,7 +27,7 @@ published: false
 <br>
 
 
-## NOTES
+#### NOTES
 
 *  Leaders and managers are often too 'busy' to invest time in helping their team members grow. But making individuals become more **self-sufficient** can help to prevent you from having to jump in and become the bottleneck. 
 

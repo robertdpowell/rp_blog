@@ -380,7 +380,7 @@ mark,
 
 .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem; }
+  font-size: 0.8rem; }
 
 .blockquote-footer {
   display: block;
@@ -6570,7 +6570,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 15px 0px 15px 15px; }
 
 .post-divider {
-  border: 0.5px solid black; }
+  border: 0.5px solid #808080; }
 
 #posts a {
   text-decoration: none; }
@@ -6578,8 +6578,7 @@ a.text-dark:hover, a.text-dark:focus {
     color: #396afc; }
 
 .fullpost-title {
-  color: #2948ff;
-  font-weight: bold; }
+  color: #2948ff; }
 
 .fullpost-date {
   padding-bottom: 25px;

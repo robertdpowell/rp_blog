@@ -2,7 +2,7 @@
 layout: fullpost
 title: Inspired by Cagan 
 summary: Key takeaways from Marty Cagan's book Inspired (Second Edition)
-series: Product Management
+series: notes
 published: false
 ---
 

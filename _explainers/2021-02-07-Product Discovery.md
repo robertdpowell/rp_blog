@@ -1,7 +1,7 @@
 ---
 layout: fullpost
-title: Product Discovery
-summary: Addressing risk early in your delivery process.
+title: Discovery
+summary: 
 published: true
 ---
 
@@ -20,31 +20,33 @@ Change is therefore necessary if we want our business to remain viable and relev
 
 ##### The Cost of Change
 
-The change we deliver to always comes at some cost. This cost is both the time, money and resources we throw at the change, and the cost of not investing in other competing change ideas.
+The change we choose to deliver always comes at some cost. This cost is both the time, money and resources we throw at the change, and the cost of not investing in other competing change ideas.
 
 Organisations therefore need to be careful to back the changes that will deliver the best results for them.
 
-Product Discovery is a set of techniques that help organisations discover and get confidence in ideas for change, before committing time, resources and effort to deliver them.
 
-As mentioned above, some change is just necessary, it must be done. For example, GDPR or IFRS17 legislation that an organisation simply must comply with.
+##### Discovery
 
-This article isn't about that type of change.
+Discovery is a range of techniques that an organisation can adopt in order to:-
 
-This article is about the type of change we do have some element of choice over. 
+* Discover problems worth solving for our customers and our business
+* Discover solutions to those problems that we are confident enough in to spend our organisations resources on.
+
 <br>
 <br>
 
-##### Start with the problem
+##### First, discover the problem
 We always make change in order to solve a particular **problem** in order to achieve some type of **outcome** that is important for our business. (examples).
 
 Organisations need to decide which problems to tackle in which order so as to deliver against the business outcomes.
 
-Our product discovery work flows from these 'problems to solve'.
+In order to discover the problems, we need to spend time with the users of our product or service to understand them and how our product or service does or does not meet their needs.
+
 <br>
 <br>
 
 ##### A Problem Worth Solving?
-But before we start trying to solve a problem, we first need to ensure that it truly is a problem. How do we know it is a problem? How big of a problem is it? Who experiences the problem? We need to collect evidence so we can say with confidence, 'we know this is a problem for (this group) because of (these evidence-based facts)'. 
+ Before we start trying to solve a problem, we first need to ensure that it truly is a problem. How do we know it is a problem? How big of a problem is it? Who experiences the problem? We need to collect evidence so we can say with confidence, 'we know this is a problem for (this group) because of (these evidence-based facts)'. 
 
 This is where good, reliable data about how our product/service is used, becomes invaluable. Dealing in facts and not opinion is imperative when we are deciding whether or not to invest in solving a particular problem. This data also helps us to measure whether or not we have improved the situation after implementing our solution.
 <br>
@@ -71,11 +73,13 @@ But how can we get this confidence **before** we deliver the solution?
 
 ##### Discovery before Delivery
 
-This is where product discovery comes in.
-
-Product discovery involves validating our solution ideas by running tests, as cheaply as is possible, in order to build up our confidence levels.
+During Discovery we validate our solution ideas by running tests/experiments, as cheaply as is possible, in order to build up our confidence levels.
 
 We create prototypes, mockups, technical proof of concepts that we put in front of users, business stakeholders, engineers to get feedback and **learn what does and doesn't work**. Based on what we learn, we adapt our prototypes and then test again. We repeat this process until we are sufficiently confident that our solution to the problem is valuable, viable, usable and technically achievable.
 
-This discovery work takes a certain element of risk out of our delivery process as we can be sure that the only changes we are investing our resource in are those that we are truly confident in.
 
+##### Continuous Discovery
+
+Discovery should not be a one-off event. Organisations need to engage in a continuous dialogue with their customers in order to continuously discover problems to solve and solutions to these problems that we have high confidence in.
+
+By doing this, we'll be able to provide a continuous flow of work to our delivery teams. 

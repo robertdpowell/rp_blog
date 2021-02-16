@@ -9,8 +9,8 @@ All organisations that deliver products and services to customers are continuous
 
 Continuous change is necessary because:-
 
-*  Customer expectations are continuously changing, based on their experience interacting with other products and services.
-*  Advances in technology can present opportunitites to deliver the product more efficiently of impactfully. And if we don't take advantage of these advancements, our competitors might.
+*  Customer expectations are continuously changing, based on the experience interacting with other products and services.
+*  Advances in technology can present opportunities to deliver the product more efficiently of impactfully. If we don't take advantage of these advancements, our competitors might.
 *  Organisations need to remain compliant with the changing legal and regulatory landscape they exist in.
 *  Our customers tell us we need to change (either directly, or through their actions).
 
@@ -28,7 +28,7 @@ Organisations therefore need to be careful to back the changes that will deliver
 Discovery is a term used to describe the set of techniques we follow in order to:-
 
 * Continuously discover **problems worth solving** for our customers and our business
-* Continuously discover **solutions to those problems** that we have enough confidence in to commit our organisation's resources.
+* Continuously discover **solutions to those problems** that we are confident enough in to commit our organisation's resources.
 
 <br>
 
@@ -37,16 +37,18 @@ We always make change in order to solve a particular **problem** in order to ach
 
 Organisations need to decide which problems to tackle in which order so as to deliver against the business outcomes.
 
-In order to discover problems, we need to regularly spend time with the users of our product or service to understand them and understand how our product or service is (or is not meeting their needs). 
+In order to discover problems, we need to regularly spend time with the users of our product or service to understand them and understand how our product or service is (or is not) meeting their needs. 
 
-We also need to spend time with the data about how our product/service is being used. The data gives us the factual evidence to support what we hear from our customers and our business stakeholders.  It's important we **deal in facts, not opinion**, when deciding whether or not to invest in solving a particular problem. The data also helps us to measure whether or not we have improved the situation after implementing our solution.
+We also need to spend time with the data that shows us how our product/service is being used. The data gives us the factual evidence to support what we hear from our customers and our business stakeholders.  
+
+It's important we **deal in facts, not opinion**, when deciding whether or not to invest in solving a particular problem. The data also helps us to measure whether or not we have improved the situation after implementing our solution.
 
 <br>
 
 ##### Getting to Confident
-When we are sure we have a **problem worth solving**, we need to **discover a solution** to that problem that we have high enough confidence in to start investing time, money, resources in delivering that solution.
+When we are sure we have a **problem worth solving**, we need to **discover a solution** to that problem that we have high enough confidence in to commit time, money, resources to deliver.
 
-Having a high level of confidence in a product or service change means:-
+Having a **high level of confidence** in a product or service change means:-
 
 * We are confident that our customers will choose to use our change, because it adds value for them.
 * We are confident the solution will be accepted as viable by our business stakeholders (legal, security, commercial, cost etc)

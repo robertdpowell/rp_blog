@@ -9,19 +9,20 @@ All organisations that deliver products and services to customers are continuous
 
 Continuous change is necessary because:-
 
-*  Customer expectations are continuously changing, based on the experience interacting with other products and services.
-*  Advances in technology can present opportunities to deliver the product more efficiently of impactfully. If we don't take advantage of these advancements, our competitors might.
-*  Organisations need to remain compliant with the changing legal and regulatory landscape they exist in.
+*  Customer expectations are continuously changing, based on their experience interacting with other products and services.
+*  Advancements in technology can present opportunities to deliver value propositions more efficiently of impactfully. If we don't take advantage of these advancements, competitors might.
+*  Organisations must remain compliant with the changing legal and regulatory landscape they exist in.
 *  Our customers tell us we need to change (either directly, or through their actions).
 
 Change is therefore necessary if we want our business to remain viable and relevant.
+<br>
 <br>
 
 ##### The Cost of Change
 The change we choose to deliver always comes at some cost. This cost is both the time, money and resources we throw at the change, and the cost of not investing in other competing change ideas.
 
 Organisations therefore need to be careful to back the changes that will deliver the best results for them.
-
+<br>
 <br>
 
 ##### Discovery
@@ -64,7 +65,7 @@ But how can we get this confidence **before** we deliver the solution?
 <br>
 
 ##### Discovery before Delivery
-During Discovery we validate our solution ideas by running tests/experiments, as cheaply as is possible, in order to build up our confidence levels.
+During Discovery we validate our solution ideas by running tests/experiments, as cheaply as is possible, in order to whittle down our options to those that we have confidence in.
 
 We create simulations, prototypes, mockups, technical proof of concepts that we put in front of users, business stakeholders, engineers to get feedback and **learn what does and doesn't work**. Based on what we learn, we adapt our prototypes and then test again. We repeat this process until we are sufficiently confident that our solution to the problem is valuable, viable, usable and technically achievable.
 

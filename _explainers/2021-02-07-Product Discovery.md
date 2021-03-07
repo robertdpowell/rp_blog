@@ -4,13 +4,12 @@ title: Discovery
 summary: Build confidence in your solution before building the solution.
 published: true
 ---
-
 All organisations that deliver products and services to customers are continuously making decisions about how to adapt their product or service to meet the needs of the customer and/or their business.
 
 Continuous change is necessary because:-
 
-*  Customer expectations are continuously changing, based on their experience interacting with other products and services.
-*  Advancements in technology can present opportunities to deliver value propositions more efficiently of impactfully. If we don't take advantage of these advancements, competitors might.
+*  Customer expectations continuously change, based on their experience interacting with other products and services.
+*  Advancements in technology can present opportunities to deliver value propositions more efficiently of impactfuly. If we don't take advantage of these advancements, competitors might.
 *  Organisations must remain compliant with the changing legal and regulatory landscape they exist in.
 *  Our customers tell us we need to change (either directly, or through their actions).
 
@@ -47,18 +46,18 @@ It's important we **deal in facts, not opinion**, when deciding whether or not t
 <br>
 
 ##### Getting to Confident
-When we are sure we have a **problem worth solving**, we need to **discover a solution** to that problem that we have high enough confidence in to commit time, money, resources to deliver.
+When we are sure we have a **problem worth solving**, we need to **discover a solution** to that problem that we have high enough confidence in to commit time, money and resources to deliver.
 
-Having a **high level of confidence** in a product or service change means:-
+Having a **high level of confidence** in a solution means:-
 
 * We are confident that our customers will choose to use our change, because it adds value for them.
 * We are confident the solution will be accepted as viable by our business stakeholders (legal, security, commercial, cost etc)
 * We are confident that this solution will be usable by our customers
-* We are confident that this solution can be delivered technically
+* We are confident that this solution can be delivered technically.
 
 (see Marty Cagan's [4 Big Risks](https://svpg.com/four-big-risks/)) 
 
-We want to get confidence across these dimensions before we commit to delivering the change.
+We want to get confidence across these dimensions before we commit to delivering our solution.
 
 But how can we get this confidence **before** we start building/delivering the solution?
 

@@ -5,7 +5,7 @@ summary: All the things I marked with my big yellow highlighter, during a recent
 published: true
 ---
 
-#### CHAPTER 1 - THE PROBLEM OF DELIVERING SOFTWARE
+##### CHAPTER 1 - THE PROBLEM OF DELIVERING SOFTWARE
 
 - There should be just two human tasks involved in a software release - pick the version and environment, and press deploy.
 
@@ -53,7 +53,7 @@ published: true
 
 <br>
 
-#### CHAPTER 2 - CONFIGURATION MANAGEMENT
+##### CHAPTER 2 - CONFIGURATION MANAGEMENT
 
 - CM records the evolution of your systems over time.
 
@@ -79,7 +79,7 @@ published: true
 
 <br>
 
-#### CHAPTER 3 - Implementing Continuous Integration
+##### CHAPTER 3 - Implementing Continuous Integration
 
 - Goal of CI - to keep your software in a working state at all times. Software is broken until proven otherwise.
 
@@ -105,7 +105,7 @@ published: true
 
 <br>
 
-#### CHAPTER 4 - Implementing a Testing Strategy
+##### CHAPTER 4 - Implementing a Testing Strategy
 
 - A test strategy tells us how we address certain risks in our product.
 
@@ -141,7 +141,7 @@ published: true
 
 <br>
 
-#### CHAPTER 5 - Anatomy of the deployment pipeline
+##### CHAPTER 5 - Anatomy of the deployment pipeline
 
 - The deployment pipeline is a paradigm for moving for moving code from check-in to production in a controlled way.
 
@@ -163,7 +163,7 @@ published: true
 
 <br>
 
-#### CHAPTER 6 - Build and Deploy Scripting
+##### CHAPTER 6 - Build and Deploy Scripting
 
 - Developers and operations staff should decide how to automate deployments together.
 
@@ -181,7 +181,7 @@ published: true
 
 <br>
 
-#### CHAPTER 7 - The Commit Stage
+##### CHAPTER 7 - The Commit Stage
 
 - Commit stage is the bouncer at the door, that does not allow unfit for prod builds to make it through the pipeline.
 
@@ -205,7 +205,7 @@ published: true
 
 <br>
 
-#### CHAPTER 8 - Automated Acceptance Testing
+##### CHAPTER 8 - Automated Acceptance Testing
 
 - Acceptance tests not only help with regression but make us consider, what does success look like for each requirement?
 
@@ -233,7 +233,7 @@ published: true
 
 <br>
 
-#### CHAPTER 9 - Testing NFRs
+##### CHAPTER 9 - Testing NFRs
 
 - Difference between performance and capacity - performance is the time taken to process a single transaction, capacity is the max throughput a system can sustain while maintaining acceptable response times per transaction.
 
@@ -249,7 +249,7 @@ published: true
 
 <br>
 
-#### CHAPTER 10 - Deploying and Releasing Applications
+##### CHAPTER 10 - Deploying and Releasing Applications
 
 - Difference between deploying and releasing is the ability to roll back.
 
@@ -279,7 +279,7 @@ published: true
 
 <br>
 
-#### CHAPTER 11 - Managing Infrastructure and Environments
+##### CHAPTER 11 - Managing Infrastructure and Environments
 
 - Your desired state of infra should be specified through version controlled config.
 
@@ -305,7 +305,7 @@ published: true
 
 <br>
 
-#### CHAPTER 12 - Managing Data
+##### CHAPTER 12 - Managing Data
 
 - Automated scripts to erase DB, create DB and load DB with data.
 
@@ -315,7 +315,7 @@ published: true
 
 <br>
 
-#### CHAPTER 13 - Managing Components and Dependencies
+##### CHAPTER 13 - Managing Components and Dependencies
 
 - How to keep your application releasable always? Hide functionality until it is ready, or make small changes each of which is releasable, or break up into components that change at different rates.
 
@@ -351,7 +351,7 @@ published: true
 
 <br>
 
-#### CHAPTER 14 - Advanced Version Control
+##### CHAPTER 14 - Advanced Version Control
 
 - The requirement to merge means its important to think carefully before branching.
 
@@ -391,7 +391,7 @@ published: true
 
 <br>
 
-#### CHAPTER 15 - Managing Continuous Delivery
+##### CHAPTER 15 - Managing Continuous Delivery
 
 - Implementing continuous delivery is more than just buying some tools and doing some automation work.
 

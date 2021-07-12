@@ -51,6 +51,8 @@ published: true
 
 - Regular retrospectives (involving everyone) on the delivery process - and continuous improvement.
 
+<br>
+
 #### CHAPTER 2 - CONFIGURATION MANAGEMENT
 
 - CM records the evolution of your systems over time.
@@ -74,6 +76,8 @@ published: true
 - Make environment creation a fully automated process.
 
 - Production environments should be completely locked down.
+
+<br>
 
 #### CHAPTER 3 - Implementing Continuous Integration
 
@@ -99,6 +103,8 @@ published: true
 
 - Fail builds on warnings or at least, fail it if the net result of build is more warnings, not less.
 
+<br>
+
 #### CHAPTER 4 - Implementing a Testing Strategy
 
 - A test strategy tells us how we address certain risks in our product.
@@ -117,6 +123,8 @@ published: true
 
 - Testing is about establishing feedback loops that drive development, design and release.
 
+<br>
+
 ###### (the following taken from Chapter 12 - Managing Data, but seems a better fit here)
 
 - We test to assert the behaviour we desire is present. We run unit tests to protect ourselves against committing a change that breaks the app. We run acceptance tests to assert the app delivers value to users. We run capacity tests to assert that our capacity requirements are satisfied. We run integration tests to assert that our application is communicating effectively with services it depends on.
@@ -130,6 +138,8 @@ published: true
 - Use the apps API to manage the data needed for your test.
 
 - Re-use auto acceptance test as input to capacity tests.
+
+<br>
 
 #### CHAPTER 5 - Anatomy of the deployment pipeline
 
@@ -151,6 +161,8 @@ published: true
 
 - The most important global metric is cycle time, but there are other diagnostics that can warn you of problems.
 
+<br>
+
 #### CHAPTER 6 - Build and Deploy Scripting
 
 - Developers and operations staff should decide how to automate deployments together.
@@ -166,6 +178,8 @@ published: true
 - We need traceability between binaries and revision control.
 
 - Don't fail build on failed tests. Give it a warning colour and highlight the issues.
+
+<br>
 
 #### CHAPTER 7 - The Commit Stage
 
@@ -188,6 +202,8 @@ published: true
 - Keep hashes of your binaries in permanent storage so we can verify we can recreate exactly the same thing and audit back from production.
 
 - Commit stage provides the biggest bang for our buck in the deployment pipeline!
+
+<br>
 
 #### CHAPTER 8 - Automated Acceptance Testing
 
@@ -215,6 +231,8 @@ published: true
 
 - Automated acceptance tests will pay for itself many times over, allowing us to change large parts of our system safely.
 
+<br>
+
 #### CHAPTER 9 - Testing NFRs
 
 - Difference between performance and capacity - performance is the time taken to process a single transaction, capacity is the max throughput a system can sustain while maintaining acceptable response times per transaction.
@@ -228,6 +246,8 @@ published: true
 - Isolate capacity test environments from other influences.
 
 - NFRs are the equivalent of making sure bridge beams are strong enough to cope with load and weather. These are crucial to the person building the bridge but probably not foremost in the minds of the people paying for it (they want a solution to get from one side to the other).
+
+<br>
 
 #### CHAPTER 10 - Deploying and Releasing Applications
 
@@ -257,6 +277,8 @@ published: true
 
 - Allow some 'warm-up' time for new deployments.
 
+<br>
+
 #### CHAPTER 11 - Managing Infrastructure and Environments
 
 - Your desired state of infra should be specified through version controlled config.
@@ -281,6 +303,8 @@ published: true
 
 - For monitoring, we need to collect data at the levels of hardware, OS, middleware and application.
 
+<br>
+
 #### CHAPTER 12 - Managing Data
 
 - Automated scripts to erase DB, create DB and load DB with data.
@@ -288,6 +312,8 @@ published: true
 - Effective technique is to version your entire databases and have two scripts - one to take it forward a version and another to roll it back.
 
 - Test data - have your tests create the data, use it, then return DB to its original state.
+
+<br>
 
 #### CHAPTER 13 - Managing Components and Dependencies
 
@@ -322,6 +348,8 @@ published: true
 - Maven ==> GAV - groupId, artifactId, version.
 
 - Snapshots allows us to create a development version compared to a release version.
+
+<br>
 
 #### CHAPTER 14 - Advanced Version Control
 
@@ -360,6 +388,8 @@ published: true
 - Poor version control processes are a common barrier to fast, low-risk releases.
 
 - Trunk is always the most complete and up to date statement of the state of your system, because this is what we deploy from.
+
+<br>
 
 #### CHAPTER 15 - Managing Continuous Delivery
 

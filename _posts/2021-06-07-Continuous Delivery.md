@@ -1,7 +1,7 @@
 ---
 layout: fullpost
 title: Continuous Delivery
-summary: All the things I highlighted during a recent re-read of Jez Humble and Dave Farley's 'Continuous Delivery'.
+summary: All the things I marked with my big yellow highlighter, during a recent re-read of Jez Humble and Dave Farley's 'Continuous Delivery'.
 published: true
 ---
 
@@ -9,23 +9,21 @@ published: true
 
 - There should be just two human tasks involved in a software release - pick the version and environment, and press deploy.
 
-- Deployments should be repeatabe and reliable.
+- Deployments should be repeatable and reliable.
 
 - The deployment process should be used by everyone and must be the only way of getting to production.
 
-- The deployment process should be used by everyone and must be the only way of getting to production.
+- All changes must be in version control.
 
-- All changes must be in in version control.
+- We need an automated rollback process if the deployment goes wrong.
 
-- We also need an automated rollback process, if the deployment goes wrong.
-
-- Push-button software releases
+- We aim for push-button software releases.
 
 - Our aim is to find ways to reduce cycle time, to create an effective feedback loop.
 
-- Frequent releases mean smaller deltas and easier rollback
+- Frequent releases mean smaller deltas and easier rollback.
 
-- Building and testing the application on every check in is known as continuous integration
+- Building and testing the application for its release worthiness on every check-in is known as continuous integration.
 
 - If any environment configuration changes, the whole system needs to be tested.
 
@@ -37,15 +35,15 @@ published: true
 
 - If we have sufficient tests and are running them on a production like environment, our software should always be in a releasable state.
 
-- The purpose of a continuous integration system is to prove that the change/release candidate is not fit for production
+- The purpose of a continuous integration system is to prove that the change/release candidate is not fit for production.
 
 - A deployment includes provisioning the infra, installing the correct version of the app, configuring the app including data or state.
 
-- We should automate the bottlnecks, and automate over time.
+- Automate the bottlenecks. Automate over time.
 
 - All aspects should be in version control, referenced by the same unique identifier that represents that build version.
 
-- we should be able to see which builds are in which environments and which versions from version control these builds derived from.
+- We should be able to see which builds are in which environments and which versions from version control these builds derived from.
 
 - 'Build quality in' - Deming.
 
@@ -59,7 +57,7 @@ published: true
 
 - Everything should be reproducible and easily changeable and easily traceable back.
 
-- No binaries in version control.
+- No binaries in version control!
 
 - Don't branch - commit to trunk and version control regularly - continuous integration.Find issues more quickly!
 
@@ -67,11 +65,11 @@ published: true
 
 - Use good commit messages.
 
-- Create a repo with approved dependencies
+- Create a repo with approved dependencies.
 
-- No passwords in version control.
+- No passwords in version control!
 
-- Ping external services during deployment.
+- Ping external services during deployment to confirm next stages can start ok.
 
 - Make environment creation a fully automated process.
 
@@ -91,11 +89,11 @@ published: true
 
 - Don't check in on a broken build.
 
-- Run commit tests locally before committing.
+- Run commit tests locally before committing (faster feedback).
 
 - To do CI effecively, everyone needs access to the whole codebase so each developer can fix any part of the code broken during the build.
 
-- 'The only way to get excellent unit test coverage is through test driven development'
+- 'The only way to get excellent unit test coverage is through test driven development'.
 
 - If tests run quickly, developers will check in more frequently. Avoid slow-running tests.
 
@@ -103,9 +101,9 @@ published: true
 
 #### CHAPTER 4 - Implementing a Testing Strategy
 
-- A test strategy tells us how we address certain risks in our product
+- A test strategy tells us how we address certain risks in our product.
 
-- Limit automated acceptance testing to complete coverage of happy paths and limited coverage of the most importnt other parts.
+- Limit automated acceptance testing to complete coverage of happy paths and limited coverage of the most important other parts.
 
 - Testing at the right time leads to better code.
 
@@ -117,15 +115,15 @@ published: true
 
 - Zero defect approach. James Shore.
 
-- Testing is about establishing feedback loops that drive development, desigm and release.
+- Testing is about establishing feedback loops that drive development, design and release.
 
 ###### (the following taken from Chapter 12 - Managing Data, but seems a better fit here)
 
-- We test to assert the behaviour we desire is present. We run unit tests to protect ourselves against committing a change that breaks the app. We run acceptance tests to assert the app delivers value to users. We run capacity tests to assert that our capacity tests are satisfied. We run integration tests to assert that our application is communicating effectively with services it depends on.
+- We test to assert the behaviour we desire is present. We run unit tests to protect ourselves against committing a change that breaks the app. We run acceptance tests to assert the app delivers value to users. We run capacity tests to assert that our capacity requirements are satisfied. We run integration tests to assert that our application is communicating effectively with services it depends on.
 
 - Good commit tests avoid elaborate data setup.
 
-- We want to minimise the data specific to each test to that which it needs to prove the behaviour it is trying to assert.
+- We want to limit the data specific to each test to that which it needs to prove the behaviour it is trying to assert.
 
 - We want to avoid that our tests are reliant on complex, large data structures.
 
@@ -137,33 +135,33 @@ published: true
 
 - Much of the waste in software release comes from the progress of software through testing and operations.
 
-- We can check hashes of binaries to prove they are the same at each stage of the deployment pipeline.
+- Check hashes of binaries to prove they are the same at each stage of the deployment pipeline.
 
-- Why we only build once - more efficient, builds upon solid foundations.
+- Why we only build once ==> more efficient, builds upon solid foundations.
 
-- Should be able to see on a dashnoard the status of all releases.
+- Should be able to see on a dashboard the status of all releases.
 
-- Best back-out strategy is to keep the previous version of your release while deploying the new version. Otherwise, redeploy the last known good version.
+- Best back-out strategy is to keep the previous version of your release while deploying the new version. Otherwise, redeploy the last known good version if in a 'we need to rollback' situation.
 
 - Model your pipeline as a value stream. Your pipeline is your model of the process for build, deploy, test, release.
 
 - Information radiators for your pipeline!
 
-- The most important global metric is cycle time, but there are other diagnostics that can warn you of problems
+- The most important global metric is cycle time, but there are other diagnostics that can warn you of problems.
 
 #### CHAPTER 6 - Build and Deploy Scripting
 
-- Developers and operations staff should decide how to automated deployments together.
+- Developers and operations staff should decide how to automate deployments together.
 
 - If middleware tools come with tools to configure and deploy - use them.
 
 - If your app is tested, built and and integrated as a single piece, deploy it as a single piece.
 
-- You can deploy on the component that it changing if you have already tested the existing combination of components, in production.
+- You can deploy only the components that are changing if you have already tested the existing combination of components, in production.
 
 - When deploying we need to be testing at each layer post deployment, to check for presence or absence of key components.
 
-- We need traceability between binaries and revision control
+- We need traceability between binaries and revision control.
 
 - Don't fail build on failed tests. Give it a warning colour and highlight the issues.
 
@@ -171,7 +169,7 @@ published: true
 
 - Commit stage is the bouncer at the door, that does not allow unfit for prod builds to make it through the pipeline.
 
-- In commit phase, we either create a deployable artifact or fail fast and tell team why.
+- In the commit phase, we either create a deployable artifact or fail fast and tell team why.
 
 - We can also run commit tests before checking, to get even earlier feedback.
 
@@ -195,9 +193,9 @@ published: true
 
 - A DSL is a programming language targeted at solving a problem specific to a particular problem domain.
 
-- Auto acceptance tests written with involvement of testers are better at finding defets than developer tests.
+- Auto acceptance tests written with involvement of testers are better at finding defects than developer tests.
 
-- Need to be pitched at the right level - at the leevel of behaviour and not implementaion. "If I place an order, is it accepted?"
+- Need to be pitched at the right level - at the level of behaviour and not implementaion. "If I place an order, is it accepted?"
 
 - Auto acceptance tests differ from user acceptance tests - and should not run in an environment that includes integration to external systems.
 
@@ -237,7 +235,7 @@ published: true
 
 - Define a release strategy to ensure a shared understanding of the release lifecycle.
 
-- Model the release process (as a diagram)
+- Model the release process (as a diagram).
 
 - Pre-deployment, the environment and infra need to be put into a clean state. This shoud be fully automated.
 
@@ -307,4 +305,26 @@ published: true
 
 - Pipelining your components - have a single pipeline for your entire application.
 
-- Use an integration pipeline to collate the binaries for the release then deploy them together as an integrated set, before continuing with the testing stages of the pipeline
+- Use an integration pipeline to collate the binaries for the release then deploy them together as an integrated set, before continuing with the testing stages of the pipeline.
+
+- We need to consider upstream and downstream dependencies of a component, and after a change, trigger the corresponding pipelines to validate the new combination of artefact versions.
+
+- The pipeline should tell us if any of our changes have broken any of our dependencies by mistake.
+
+- The less control and visibility your team has over a component, the less you should trust it and the more conservative you should be about accepting new versions.
+
+- Should be able to delete the artefact repository without worrying we won't be able to regain anything valuable. We must be able to recreate each from source control.
+
+- Always keep a hash of all binaries so the source can be verified. Managing hashes is an important part of our configuration management strategy.
+
+- Maven ==> GAV - groupId, artifactId, version.
+
+- Snapshots allows us to create a development version compared to a release version.
+
+#### CHAPTER 14 - Advanced Version Control
+
+- Coming soon
+
+#### CHAPTER 15 - Managing Continuous Delivery
+
+- Coming soon

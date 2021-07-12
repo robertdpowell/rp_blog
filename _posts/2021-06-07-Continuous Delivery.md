@@ -133,6 +133,8 @@ published: true
 
 #### CHAPTER 5 - Anatomy of the deployment pipeline
 
+- The deployment pipeline is a paradigm for moving for moving code from check-in to production in a controlled way.
+
 - Much of the waste in software release comes from the progress of software through testing and operations.
 
 - Check hashes of binaries to prove they are the same at each stage of the deployment pipeline.
@@ -323,8 +325,46 @@ published: true
 
 #### CHAPTER 14 - Advanced Version Control
 
-- Coming soon
+- The requirement to merge means its important to think carefully before branching.
+
+- For each branch, the organisation needs rules about the branch's role and who can check in to it, under what circumstances.
+
+- The longer we leave a branch unmerged and the more people working on them, the more unpleasant the merge will be.
+
+- CI means checking into mainline once a day.
+
+- Industry standard to create long lived branches only on release - new work always committed to the trunk.
+
+- Git allows you to change history - a red-line in some companies.
+
+- Stream-based version control allow us to apply sets of changes to multiple branches at once. This can help in the hotfix scenario, for example.
+
+- Mainline development means 'all ongoing development end up on a single codeline, at some time'.
+
+- Mainlien development - breaking work down into small incremental steps, always testing.
+
+- How to manage large teams of developers working on multiple releases if everything is checked into mainline? Good componentisation, incremental development, feature hiding.
+
+- Always commit to trunk and do it once a day.
+
+- Creating a branch for release IS acceptable. You have a mainline to allow developers to keep checking in changes while the release candidate is tested from code in the release branch.
+
+- Merge bugfixes made on release branch back into trunk asap.
+
+- Avoid creating further branches of your release branch (staircase structure).
+
+- Feature branches are bad ==> lead to integration challenges.
+
+- Multiple feature branches is much more risky than mainline development with incremental development and/or feature hiding.
+
+- Poor version control processes are a common barrier to fast, low-risk releases.
+
+- Trunk is always the most complete and up to date statement of the state of your system, because this is what we deploy from.
 
 #### CHAPTER 15 - Managing Continuous Delivery
 
-- Coming soon
+- Implementing continuous delivery is more than just buying some tools and doing some automation work.
+
+- Achieving conformance (to rules) and performance (of delivery) is at the heart of Continuous Delivery.
+
+- Unreleased software is like stored up inventory.

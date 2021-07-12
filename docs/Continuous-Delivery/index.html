@@ -79,7 +79,7 @@
       <p class="h5 fullpost-date">
         Jun 7, 2021
       </p>
-      <p class="fullpost-summary">All the things I highlighted during a recent re-read of Jez Humble and Dave Farley's 'Continuous Delivery'.</p>
+      <p class="fullpost-summary">All the things I marked with my big yellow highlighter, during a recent re-read of Jez Humble and Dave Farley's 'Continuous Delivery'.</p>
       <div class="col-sm-12 post-divider"></div>
     </div>
   </div>
@@ -92,31 +92,28 @@
     <p>There should be just two human tasks involved in a software release - pick the version and environment, and press deploy.</p>
   </li>
   <li>
-    <p>Deployments should be repeatabe and reliable.</p>
+    <p>Deployments should be repeatable and reliable.</p>
   </li>
   <li>
     <p>The deployment process should be used by everyone and must be the only way of getting to production.</p>
   </li>
   <li>
-    <p>The deployment process should be used by everyone and must be the only way of getting to production.</p>
+    <p>All changes must be in version control.</p>
   </li>
   <li>
-    <p>All changes must be in in version control.</p>
+    <p>We need an automated rollback process if the deployment goes wrong.</p>
   </li>
   <li>
-    <p>We also need an automated rollback process, if the deployment goes wrong.</p>
-  </li>
-  <li>
-    <p>Push-button software releases</p>
+    <p>We aim for push-button software releases.</p>
   </li>
   <li>
     <p>Our aim is to find ways to reduce cycle time, to create an effective feedback loop.</p>
   </li>
   <li>
-    <p>Frequent releases mean smaller deltas and easier rollback</p>
+    <p>Frequent releases mean smaller deltas and easier rollback.</p>
   </li>
   <li>
-    <p>Building and testing the application on every check in is known as continuous integration</p>
+    <p>Building and testing the application for its release worthiness on every check-in is known as continuous integration.</p>
   </li>
   <li>
     <p>If any environment configuration changes, the whole system needs to be tested.</p>
@@ -134,19 +131,19 @@
     <p>If we have sufficient tests and are running them on a production like environment, our software should always be in a releasable state.</p>
   </li>
   <li>
-    <p>The purpose of a continuous integration system is to prove that the change/release candidate is not fit for production</p>
+    <p>The purpose of a continuous integration system is to prove that the change/release candidate is not fit for production.</p>
   </li>
   <li>
     <p>A deployment includes provisioning the infra, installing the correct version of the app, configuring the app including data or state.</p>
   </li>
   <li>
-    <p>We should automate the bottlnecks, and automate over time.</p>
+    <p>Automate the bottlenecks. Automate over time.</p>
   </li>
   <li>
     <p>All aspects should be in version control, referenced by the same unique identifier that represents that build version.</p>
   </li>
   <li>
-    <p>we should be able to see which builds are in which environments and which versions from version control these builds derived from.</p>
+    <p>We should be able to see which builds are in which environments and which versions from version control these builds derived from.</p>
   </li>
   <li>
     <p>‘Build quality in’ - Deming.</p>
@@ -169,7 +166,7 @@
     <p>Everything should be reproducible and easily changeable and easily traceable back.</p>
   </li>
   <li>
-    <p>No binaries in version control.</p>
+    <p>No binaries in version control!</p>
   </li>
   <li>
     <p>Don’t branch - commit to trunk and version control regularly - continuous integration.Find issues more quickly!</p>
@@ -181,13 +178,13 @@
     <p>Use good commit messages.</p>
   </li>
   <li>
-    <p>Create a repo with approved dependencies</p>
+    <p>Create a repo with approved dependencies.</p>
   </li>
   <li>
-    <p>No passwords in version control.</p>
+    <p>No passwords in version control!</p>
   </li>
   <li>
-    <p>Ping external services during deployment.</p>
+    <p>Ping external services during deployment to confirm next stages can start ok.</p>
   </li>
   <li>
     <p>Make environment creation a fully automated process.</p>
@@ -219,13 +216,13 @@
     <p>Don’t check in on a broken build.</p>
   </li>
   <li>
-    <p>Run commit tests locally before committing.</p>
+    <p>Run commit tests locally before committing (faster feedback).</p>
   </li>
   <li>
     <p>To do CI effecively, everyone needs access to the whole codebase so each developer can fix any part of the code broken during the build.</p>
   </li>
   <li>
-    <p>‘The only way to get excellent unit test coverage is through test driven development’</p>
+    <p>‘The only way to get excellent unit test coverage is through test driven development’.</p>
   </li>
   <li>
     <p>If tests run quickly, developers will check in more frequently. Avoid slow-running tests.</p>
@@ -239,10 +236,10 @@
 
 <ul>
   <li>
-    <p>A test strategy tells us how we address certain risks in our product</p>
+    <p>A test strategy tells us how we address certain risks in our product.</p>
   </li>
   <li>
-    <p>Limit automated acceptance testing to complete coverage of happy paths and limited coverage of the most importnt other parts.</p>
+    <p>Limit automated acceptance testing to complete coverage of happy paths and limited coverage of the most important other parts.</p>
   </li>
   <li>
     <p>Testing at the right time leads to better code.</p>
@@ -260,7 +257,7 @@
     <p>Zero defect approach. James Shore.</p>
   </li>
   <li>
-    <p>Testing is about establishing feedback loops that drive development, desigm and release.</p>
+    <p>Testing is about establishing feedback loops that drive development, design and release.</p>
   </li>
 </ul>
 
@@ -268,13 +265,13 @@
 
 <ul>
   <li>
-    <p>We test to assert the behaviour we desire is present. We run unit tests to protect ourselves against committing a change that breaks the app. We run acceptance tests to assert the app delivers value to users. We run capacity tests to assert that our capacity tests are satisfied. We run integration tests to assert that our application is communicating effectively with services it depends on.</p>
+    <p>We test to assert the behaviour we desire is present. We run unit tests to protect ourselves against committing a change that breaks the app. We run acceptance tests to assert the app delivers value to users. We run capacity tests to assert that our capacity requirements are satisfied. We run integration tests to assert that our application is communicating effectively with services it depends on.</p>
   </li>
   <li>
     <p>Good commit tests avoid elaborate data setup.</p>
   </li>
   <li>
-    <p>We want to minimise the data specific to each test to that which it needs to prove the behaviour it is trying to assert.</p>
+    <p>We want to limit the data specific to each test to that which it needs to prove the behaviour it is trying to assert.</p>
   </li>
   <li>
     <p>We want to avoid that our tests are reliant on complex, large data structures.</p>
@@ -291,19 +288,22 @@
 
 <ul>
   <li>
+    <p>The deployment pipeline is a paradigm for moving for moving code from check-in to production in a controlled way.</p>
+  </li>
+  <li>
     <p>Much of the waste in software release comes from the progress of software through testing and operations.</p>
   </li>
   <li>
-    <p>We can check hashes of binaries to prove they are the same at each stage of the deployment pipeline.</p>
+    <p>Check hashes of binaries to prove they are the same at each stage of the deployment pipeline.</p>
   </li>
   <li>
-    <p>Why we only build once - more efficient, builds upon solid foundations.</p>
+    <p>Why we only build once ==&gt; more efficient, builds upon solid foundations.</p>
   </li>
   <li>
-    <p>Should be able to see on a dashnoard the status of all releases.</p>
+    <p>Should be able to see on a dashboard the status of all releases.</p>
   </li>
   <li>
-    <p>Best back-out strategy is to keep the previous version of your release while deploying the new version. Otherwise, redeploy the last known good version.</p>
+    <p>Best back-out strategy is to keep the previous version of your release while deploying the new version. Otherwise, redeploy the last known good version if in a ‘we need to rollback’ situation.</p>
   </li>
   <li>
     <p>Model your pipeline as a value stream. Your pipeline is your model of the process for build, deploy, test, release.</p>
@@ -312,7 +312,7 @@
     <p>Information radiators for your pipeline!</p>
   </li>
   <li>
-    <p>The most important global metric is cycle time, but there are other diagnostics that can warn you of problems</p>
+    <p>The most important global metric is cycle time, but there are other diagnostics that can warn you of problems.</p>
   </li>
 </ul>
 
@@ -320,7 +320,7 @@
 
 <ul>
   <li>
-    <p>Developers and operations staff should decide how to automated deployments together.</p>
+    <p>Developers and operations staff should decide how to automate deployments together.</p>
   </li>
   <li>
     <p>If middleware tools come with tools to configure and deploy - use them.</p>
@@ -329,13 +329,13 @@
     <p>If your app is tested, built and and integrated as a single piece, deploy it as a single piece.</p>
   </li>
   <li>
-    <p>You can deploy on the component that it changing if you have already tested the existing combination of components, in production.</p>
+    <p>You can deploy only the components that are changing if you have already tested the existing combination of components, in production.</p>
   </li>
   <li>
     <p>When deploying we need to be testing at each layer post deployment, to check for presence or absence of key components.</p>
   </li>
   <li>
-    <p>We need traceability between binaries and revision control</p>
+    <p>We need traceability between binaries and revision control.</p>
   </li>
   <li>
     <p>Don’t fail build on failed tests. Give it a warning colour and highlight the issues.</p>
@@ -349,7 +349,7 @@
     <p>Commit stage is the bouncer at the door, that does not allow unfit for prod builds to make it through the pipeline.</p>
   </li>
   <li>
-    <p>In commit phase, we either create a deployable artifact or fail fast and tell team why.</p>
+    <p>In the commit phase, we either create a deployable artifact or fail fast and tell team why.</p>
   </li>
   <li>
     <p>We can also run commit tests before checking, to get even earlier feedback.</p>
@@ -387,10 +387,10 @@
     <p>A DSL is a programming language targeted at solving a problem specific to a particular problem domain.</p>
   </li>
   <li>
-    <p>Auto acceptance tests written with involvement of testers are better at finding defets than developer tests.</p>
+    <p>Auto acceptance tests written with involvement of testers are better at finding defects than developer tests.</p>
   </li>
   <li>
-    <p>Need to be pitched at the right level - at the leevel of behaviour and not implementaion. “If I place an order, is it accepted?”</p>
+    <p>Need to be pitched at the right level - at the level of behaviour and not implementaion. “If I place an order, is it accepted?”</p>
   </li>
   <li>
     <p>Auto acceptance tests differ from user acceptance tests - and should not run in an environment that includes integration to external systems.</p>
@@ -454,7 +454,7 @@
     <p>Define a release strategy to ensure a shared understanding of the release lifecycle.</p>
   </li>
   <li>
-    <p>Model the release process (as a diagram)</p>
+    <p>Model the release process (as a diagram).</p>
   </li>
   <li>
     <p>Pre-deployment, the environment and infra need to be put into a clean state. This shoud be fully automated.</p>
@@ -565,7 +565,101 @@
     <p>Pipelining your components - have a single pipeline for your entire application.</p>
   </li>
   <li>
-    <p>Use an integration pipeline to collate the binaries for the release then deploy them together as an integrated set, before continuing with the testing stages of the pipeline</p>
+    <p>Use an integration pipeline to collate the binaries for the release then deploy them together as an integrated set, before continuing with the testing stages of the pipeline.</p>
+  </li>
+  <li>
+    <p>We need to consider upstream and downstream dependencies of a component, and after a change, trigger the corresponding pipelines to validate the new combination of artefact versions.</p>
+  </li>
+  <li>
+    <p>The pipeline should tell us if any of our changes have broken any of our dependencies by mistake.</p>
+  </li>
+  <li>
+    <p>The less control and visibility your team has over a component, the less you should trust it and the more conservative you should be about accepting new versions.</p>
+  </li>
+  <li>
+    <p>Should be able to delete the artefact repository without worrying we won’t be able to regain anything valuable. We must be able to recreate each from source control.</p>
+  </li>
+  <li>
+    <p>Always keep a hash of all binaries so the source can be verified. Managing hashes is an important part of our configuration management strategy.</p>
+  </li>
+  <li>
+    <p>Maven ==&gt; GAV - groupId, artifactId, version.</p>
+  </li>
+  <li>
+    <p>Snapshots allows us to create a development version compared to a release version.</p>
+  </li>
+</ul>
+
+<h4 id="chapter-14---advanced-version-control">CHAPTER 14 - Advanced Version Control</h4>
+
+<ul>
+  <li>
+    <p>The requirement to merge means its important to think carefully before branching.</p>
+  </li>
+  <li>
+    <p>For each branch, the organisation needs rules about the branch’s role and who can check in to it, under what circumstances.</p>
+  </li>
+  <li>
+    <p>The longer we leave a branch unmerged and the more people working on them, the more unpleasant the merge will be.</p>
+  </li>
+  <li>
+    <p>CI means checking into mainline once a day.</p>
+  </li>
+  <li>
+    <p>Industry standard to create long lived branches only on release - new work always committed to the trunk.</p>
+  </li>
+  <li>
+    <p>Git allows you to change history - a red-line in some companies.</p>
+  </li>
+  <li>
+    <p>Stream-based version control allow us to apply sets of changes to multiple branches at once. This can help in the hotfix scenario, for example.</p>
+  </li>
+  <li>
+    <p>Mainline development means ‘all ongoing development end up on a single codeline, at some time’.</p>
+  </li>
+  <li>
+    <p>Mainlien development - breaking work down into small incremental steps, always testing.</p>
+  </li>
+  <li>
+    <p>How to manage large teams of developers working on multiple releases if everything is checked into mainline? Good componentisation, incremental development, feature hiding.</p>
+  </li>
+  <li>
+    <p>Always commit to trunk and do it once a day.</p>
+  </li>
+  <li>
+    <p>Creating a branch for release IS acceptable. You have a mainline to allow developers to keep checking in changes while the release candidate is tested from code in the release branch.</p>
+  </li>
+  <li>
+    <p>Merge bugfixes made on release branch back into trunk asap.</p>
+  </li>
+  <li>
+    <p>Avoid creating further branches of your release branch (staircase structure).</p>
+  </li>
+  <li>
+    <p>Feature branches are bad ==&gt; lead to integration challenges.</p>
+  </li>
+  <li>
+    <p>Multiple feature branches is much more risky than mainline development with incremental development and/or feature hiding.</p>
+  </li>
+  <li>
+    <p>Poor version control processes are a common barrier to fast, low-risk releases.</p>
+  </li>
+  <li>
+    <p>Trunk is always the most complete and up to date statement of the state of your system, because this is what we deploy from.</p>
+  </li>
+</ul>
+
+<h4 id="chapter-15---managing-continuous-delivery">CHAPTER 15 - Managing Continuous Delivery</h4>
+
+<ul>
+  <li>
+    <p>Implementing continuous delivery is more than just buying some tools and doing some automation work.</p>
+  </li>
+  <li>
+    <p>Achieving conformance (to rules) and performance (of delivery) is at the heart of Continuous Delivery.</p>
+  </li>
+  <li>
+    <p>Unreleased software is like stored up inventory.</p>
   </li>
 </ul>
 </p>

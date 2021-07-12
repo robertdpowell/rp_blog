@@ -1,7 +1,7 @@
 ---
 layout: fullpost
 title: Continuous Delivery
-summary:
+summary: All the things I highlighted during a recent re-read of Jez Humble and Dave Farley's 'Continuous Delivery'.
 published: true
 ---
 

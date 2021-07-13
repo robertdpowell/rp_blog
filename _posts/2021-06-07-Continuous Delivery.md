@@ -398,3 +398,31 @@ published: true
 - Achieving conformance (to rules) and performance (of delivery) is at the heart of Continuous Delivery.
 
 - Unreleased software is like stored up inventory.
+
+- PDCA - Deming cycle approach to configuration and release management maturity.
+
+- Implement change incrementally, measure the impact as we go.
+
+- Hypothesis ==> Test, Repeat ==> Learn.
+
+- The book focuses mainly on the ITIL phases of service transition and service operation. Release and deployment management, service testing and validation, service asset configuration and change management processes. But also, has implications for service design.
+
+- Successful projects cope with change well. Change in inevitable because we learn as we do.
+
+- Keep decisions broad-based at the start of the project and avoid going into detail during this inception phase ==> waste of time.
+
+- Use the initiation phase to prove your CI/CD process and infra, by trying to release 1 simple requirement or story.
+
+- An iterative approach means ==> Software is always working, as demonstrated by the automated test suites that run on check in. Software is deployed to a production like environment for showcase in each iteration, which are no longer than 2 weeks.
+
+- Keys to iterative are prioritisation and parallelization.
+
+- Iterative and incremental delivery are key to risk management in software delivery.
+
+- The deployment pipeline allows us to enforce auditing and compliance strategies while maintaining short cycle time.
+
+- The more detailed a document, the more quickly it will go out of date!
+
+- Automated scripts are the documentation of your process - ensure they are up to date and enforce that they are used.
+
+- Take hashes of binaries to prove the ones in prod are the ones that came out of our build process.

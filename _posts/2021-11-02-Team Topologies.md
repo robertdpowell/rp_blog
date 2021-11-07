@@ -6,6 +6,14 @@ series: notes
 published: true
 ---
 
+##### Links
+
+Create your own Team Topologies model --> [here](https://app.diagrams.net/?splash=0&ui=min&clibs=Uhttps%3A%2f%2fraw.githubusercontent.com%2fTeamTopologies%2fTeam-Shape-Templates%2fmaster%2fdiagrams.net%2fTeamTopologies.xml)
+
+
+
+##### Foreword
+
 - Much has been written about the design of software, but little has been written about the design of the software organisation.
 
 - This book is all about team structure and modes of interaction
@@ -94,6 +102,31 @@ we need to think again about our organisation design".
 - Minimize cognitive load for others is an important heuristic for good software development.
 
 - Define team APIs that include code, documentation and user experience - helping other teams understand how to interact with us 
+
+- API-based, separation of concerns between teams. Try not to share code bases between teams. 
+
+- Office design an important consideration for communication flow.
+
+- "you start seeing things from other people's viewpoints when you sit with them."
+
+
+##### Chapter 4 - Static Team Topologies
+
+- We need consciously designed team structures - team topologies. We need to explicity design our organisation to meet our goals. Don't just copy the Spotify model.
+
+- Question we should ask ourselves: Given our skills, constraints, maturity, desired architecture and business goals, which team topology will help us deliver results faster and safer? How can we reduce or avoid handovers between teams?
+
+- Older organisational models - functional silos, heavy outsourcing, repeated hand offs between teams.
+
+- We want our software development teams to be set up for fast flow, minimal hand-offs and rich operational feedback flowing directly to the team. 
+
+- Accelerate - "We must ensure delivery teams are cross-functional with all the skills necessary to design, develop, test, deploy and operate the system on the same team."
+
+- There is no one right topology for any organisation, but many wrong ones.
+
+- Feature teams. Product Teams.
+
+- Being dependent on other teams to get your work done is bad because other team's have their own priorities and it is difficult to synchronise priorities across teams.
 
 
 

@@ -128,6 +128,63 @@ we need to think again about our organisation design".
 
 - Being dependent on other teams to get your work done is bad because other team's have their own priorities and it is difficult to synchronise priorities across teams.
 
+- Key for teams remaining autonomous is for external dependencies to be non-blocking. Self-service capabilites accessible on demand (easily consumable, platform-oriented), is often how this is done.
+
+- Avoid hard dependencies with functional teams like infra and QA.
+
+- Example - cloud team might own the provisioning process to ensure controls are in place, but product team should be able to provision the resource themselves.
+
+- Organisation size (or software scale) and engineering maturity should influence which topologies are chosen.
+
+- Before throwing more people at existing teams, consider instead which dependencies we want to break between existing teams.
+
+- Look at knowledge, task and resource dependencies between teams and identify where they can be reduced.
+
+-  We need an evolutionary path from where we are now, to where we want to be to realise organisational expectations.
+
+- From DevOps team to 'DevOps Evangelist Team'. Get the team to own the automation themeselves.
+
+- Don't make your DevOps team a dependency - focus on building self-service tools.
+
+
+##### Chapter 5 - Four Fundamental Team Topologies
+
+- Reduce number of team variations. We could focus on just four to reduce ambiguity (Jiao Luo)
+
+- Combine these four with effective software boundaries and team interactions.
+
+- There is no ops team - there is no live operation.
+
+###### Stream-Aligned teams
+
+- Aligned to single valuable stream of work (product, service, user journey..)
+
+- The primary team type. All other teams are there to reduce the burden on the stream-aligned teams.
+
+- Most teams will be stream-aligned.
+
+- They are close to customers and close to prod. They monitor in prod.
+
+- Team is funded in a long-term sustainable manner.
+
+- "You build it, you run it" - Werner Vogels, CTO Amazon
+
+- Team ideally contains some generalists and some specialists. Specialists means bottlenecks!
+
+- We use the term 'stream' as a stream should flow unimpeded. It is a more widely applicable term than 'product' or 'feature'.
+
+- Minimal hand-offs to other teams.
+
+###### Enabling teams
+
+- Composed of specialists
+
+
+
+
+
+
+
 
 
 

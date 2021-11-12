@@ -177,7 +177,17 @@ we need to think again about our organisation design".
 
 ###### Enabling teams
 
-- Composed of specialists
+- Composed of specialists in a domain
+
+- Have bandwidth to research and make suggestions on tooling, frameworks, practices in response to the challenges being experienced by the stream aligned teams.
+
+- 'Technical Consulting Teams'.
+
+- Bring solutions to problems being experienced by stream aligned teams.
+
+- Not a permanent dependency but support for a focused, temporary period.
+
+- Areas of speciliasm might be continuous delivery, test automation, containerisation, where the enabling team sets up a walking skeleton of a pipeline or test framework.
 
 
 
@@ -188,5 +198,13 @@ we need to think again about our organisation design".
 
 
 
+
+
+
+- Stays ahead of the curve in their area of expertise
+
+- 'Engineering enablement'
+
+###### Complicated sub-system teams.
 
 

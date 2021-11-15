@@ -161,7 +161,7 @@ we need to think again about our organisation design".
 
 - The primary team type. All other teams are there to reduce the burden on the stream-aligned teams.
 
-- Most teams will be stream-aligned.
+- Most teams will be stream-aligned. Ratio of 6:1 or 9:1
 
 - They are close to customers and close to prod. They monitor in prod.
 
@@ -205,6 +205,56 @@ we need to think again about our organisation design".
 
 - 'Engineering enablement'
 
-###### Complicated sub-system teams.
+###### Complicated sub-system teams
+
+- Build and maintain part of system that requires specialist knowledge but is needed by many of the stream teams.
+
+- Only expect a few.
+
+- Work by the sub-system team should be delivered in line with the needs of the stream teams.
+
+###### Platform teams
+
+- Delivers internal services to reduce cognitive load on stream teams.
+
+- Evan Bottcher definition
+
+- Thick platform vs thin platform.
+
+- Examples - server provisioning, access management and security enforcement.
+
+- 'Platform as a product.'
+
+- Possible to have inner topologies within a platform team.
+
+- Need to focus on UX and DevEx.
+
+- Need a feeback loop.
+
+- Product roadmap driven by personas.
+
+
+
+
+###### Avoiding Silos
+
+- We should avoid dedicated teams of specialists as it creates hand-offs that disrupt flow.
+
+- Instead create cross-functional stream-aligned teams supported by the other topologies.
+
+
+
+###### Conversions
+
+- Infrastructure teams to Platform Teams
+
+- Component teams to Platform or other.
+
+- Tool teams to Enabling teams.
+
+- Support teams per stream/area.
+
+- Architects to part-time enabling team. Supporting and enabling, not dictating.
+
 
 

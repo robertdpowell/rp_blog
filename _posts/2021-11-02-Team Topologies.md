@@ -1,7 +1,7 @@
 ---
 layout: fullpost
 title: Team Topologies
-summary: My highlights from the Team Topologies book.
+summary: "An effective, modern organisation building and running software is a product of the interactions between teams".
 series: notes
 published: true
 ---
@@ -9,6 +9,7 @@ published: true
 ##### Links
 
 Create your own Team Topologies model --> [here](https://app.diagrams.net/?splash=0&ui=min&clibs=Uhttps%3A%2f%2fraw.githubusercontent.com%2fTeamTopologies%2fTeam-Shape-Templates%2fmaster%2fdiagrams.net%2fTeamTopologies.xml)
+
 
 
 
@@ -67,7 +68,7 @@ we need to think again about our organisation design".
 
 - Fracture plan patterns split code up into separate parts that can live in separate repos and can be worked on by different teams.
 
-- Reverse Conway - design teams to match the intended architecture. DBA example.
+- Reverse Conway - our architecture is a reflection of the communication patterns of our org. So, if we want a different architecture, design teams and interaction patternd to match the intended architecture. DBA example.
 
 ##### Chapter 3 - Team first thinking
 
@@ -258,3 +259,128 @@ we need to think again about our organisation design".
 
 
 
+##### Chapter 6 - Chose Team First Boundaries
+
+- Need to find suitable team boundaries to encourage flow
+
+- Align ownership of software to capabilities of a single team.
+
+- Many problems come from unclear boundaries between teams.
+
+- We don't want a 'distributed monolith'.
+
+- 'JOINED AT THE DATABASE MONOLITH' 
+
+- Use service mocks to test and deploy independent APIs in isolation
+
+- Enforcing standardization leads to less experimentation and learning.
+
+- Colocate by purpose, not just colocate bodies.
+
+- Look for fracture planes in our software - natural split points to break up the monolith and support team autonomy
+
+- Could align software with business domains - see DDD. Align biz and tech on terminology.
+
+- Could split based on regulatory needs.
+
+- Could split by change cadence allows teams moving at different speeds to not be impeded by each other.
+
+- Could split by team location (efficiency of communication)
+
+- Could split by risk profile.
+
+- Could split by perfomance isolation need.
+
+- Could split by tech (not advised, but maybe needed with a legacy app which cannot work with modern tools)
+
+- Could split by persona (teams managing features needed by a certain persona)
+
+- "Could we consume or provide this subsystem as a service?"
+
+
+##### Chapter 7 - Team Interaction Modes
+
+- Collaboration or X-as-a-Service or Facilitation
+
+- Want to avoid that all teams need to communicate with each other. Intermittent communication is best.
+
+- Provides clarity for teams.
+
+- Key point is to choose between two teams collaborating and one team consuming something as a service from another team.
+
+- **Collaboration** - (two teams working closely together) needed when needing to pool skillsets of more than one team, perhaps when exploring a new innovation or technology and discovery/rapid learning needed.
+
+- A need for ongoing collaboration indicates incorrect team boundaries or skill mix
+
+- Collaboration comes at a cost and needs tangible rewards. 'Collaboration tax'.
+
+- Collaboration mode should be activated with only one other team at a time.
+
+- *High trust and mutual collaboration*
+
+- **X-as-a-service** - 'when it needs to just work'
+
+- Clean API and/or boundary between teams.
+
+- DevEx should be highly compelling
+
+- Less innovation possiblity than Collaboration mode, as API/interface clearly defined and locked down.
+
+- *Emphasise the user experience*
+
+- *Needs people with strong product and service management expertise*
+
+- **Facilitating** - main mode of an enabling team.
+
+- Help ensure the quality of interactions across teams is good.
+
+- Promise theory - Mark Burgess.
+
+- *Help and be helped*
+
+- *needs people with strong mentoring and facilitating experience*
+
+- Collaborate on ambiguous interfaces until they are proven and stable.
+
+- Role of architects to help define these boundaries as interfaces.
+
+##### Chapter 8 - Evolve Team Structures with Organisational Sensing
+
+- **The deliberate change in team interaction to enhance delivery capability is the essence of strategic technology leadership**
+
+- Key point - team topologies should evolve and we can set target states we aim to achieve with a plan to get there, learning as we go.
+
+- Typical evolution pattern - Collab(discovery)-->Limited Collab --> X-as-a-service (predictable delivery).
+
+- How do we know when to evolve?
+
+- *software or domain too large for team, leads to individuals on the team becoming specialists in certain products and then single points of failure/bottlenecks*
+
+- *delivery cadence is slowing down*
+
+- *many teams rely on large set of underlying services*
+
+- We need telemetry to sense when things are not going well
+
+- **Treat Ops as an input to dev**
+
+- Keep ops at least aligned to the same value stream as dev.
+
+- Separate maintenance/BAU teams work against reponsiveness.
+
+##### Chapter 8 - Next Generation Digital Operating Model
+
+- The 4 team types is all that is needed.
+
+- The team is the fundamental unit of delivery.
+
+- Switch from technology first to team/communication first approach to org design.
+
+- Team structures must match the required system architecture.
+
+- How to get started:-
+- Start with the team
+- Identify streams of change that will be supported by all other teams
+- Identify a TVP
+- Identify gaps in non tech requirements (coaching, mentoring, service management, documentation). Not just about technologists.
+- Explain it to people! Team first approach, Conway's law, interaction models.

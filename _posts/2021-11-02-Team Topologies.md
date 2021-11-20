@@ -1,7 +1,7 @@
 ---
 layout: fullpost
 title: Team Topologies
-summary: "An effective, modern organisation building and running software is a product of the interactions between teams"
+summary: 'An effective, modern organisation building and running software is a product of the interactions between teams'
 series: notes
 published: true
 ---

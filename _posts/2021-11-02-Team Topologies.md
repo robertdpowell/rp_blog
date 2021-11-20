@@ -11,8 +11,6 @@ published: true
 Create your own Team Topologies model --> [here](https://app.diagrams.net/?splash=0&ui=min&clibs=Uhttps%3A%2f%2fraw.githubusercontent.com%2fTeamTopologies%2fTeam-Shape-Templates%2fmaster%2fdiagrams.net%2fTeamTopologies.xml)
 
 
-
-
 ##### Foreword
 
 - Much has been written about the design of software, but little has been written about the design of the software organisation.

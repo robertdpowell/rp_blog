@@ -6,8 +6,7 @@ series: notes
 published: true
 ---
 
-![image](https://user-images.githubusercontent.com/29025275/142770816-66e7cb5b-74cb-4621-b393-84aa34dca64b.png)
-
+<img src="https://user-images.githubusercontent.com/29025275/142770816-66e7cb5b-74cb-4621-b393-84aa34dca64b.png" class="img-fluid">
 
 ##### Links
 

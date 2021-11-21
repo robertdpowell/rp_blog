@@ -6,6 +6,9 @@ series: notes
 published: true
 ---
 
+![image](https://user-images.githubusercontent.com/29025275/142770816-66e7cb5b-74cb-4621-b393-84aa34dca64b.png)
+
+
 ##### Links
 
 Create your own Team Topologies model --> [here](https://app.diagrams.net/?splash=0&ui=min&clibs=Uhttps%3A%2f%2fraw.githubusercontent.com%2fTeamTopologies%2fTeam-Shape-Templates%2fmaster%2fdiagrams.net%2fTeamTopologies.xml)

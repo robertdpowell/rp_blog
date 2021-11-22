@@ -13,6 +13,7 @@ published: true
 Create your own Team Topologies model --> [here](https://app.diagrams.net/?splash=0&ui=min&clibs=Uhttps%3A%2f%2fraw.githubusercontent.com%2fTeamTopologies%2fTeam-Shape-Templates%2fmaster%2fdiagrams.net%2fTeamTopologies.xml)
 
 
+
 ##### Foreword
 
 - Much has been written about the design of software, but little has been written about the design of the software organisation.
@@ -22,6 +23,7 @@ Create your own Team Topologies model --> [here](https://app.diagrams.net/?splas
 - As a system gets more complex, so does the cognitive load of the teams working to support and evolve it.
 
 - System design should cater for loose coupling and optimal flow.
+
 
 ##### Chapter 1
 
@@ -69,6 +71,7 @@ we need to think again about our organisation design".
 - Fracture plan patterns split code up into separate parts that can live in separate repos and can be worked on by different teams.
 
 - Reverse Conway - our architecture is a reflection of the communication patterns of our org. So, if we want a different architecture, design teams and interaction patternd to match the intended architecture. DBA example.
+
 
 ##### Chapter 3 - Team first thinking
 
@@ -156,6 +159,7 @@ we need to think again about our organisation design".
 
 - There is no ops team - there is no live operation.
 
+
 ###### Stream-Aligned teams
 
 - Aligned to single valuable stream of work (product, service, user journey..)
@@ -175,6 +179,7 @@ we need to think again about our organisation design".
 - We use the term 'stream' as a stream should flow unimpeded. It is a more widely applicable term than 'product' or 'feature'.
 
 - Minimal hand-offs to other teams.
+
 
 ###### Enabling teams
 
@@ -206,6 +211,7 @@ we need to think again about our organisation design".
 
 - 'Engineering enablement'
 
+
 ###### Complicated sub-system teams
 
 - Build and maintain part of system that requires specialist knowledge but is needed by many of the stream teams.
@@ -213,6 +219,7 @@ we need to think again about our organisation design".
 - Only expect a few.
 
 - Work by the sub-system team should be delivered in line with the needs of the stream teams.
+
 
 ###### Platform teams
 
@@ -233,8 +240,6 @@ we need to think again about our organisation design".
 - Need a feeback loop.
 
 - Product roadmap driven by personas.
-
-
 
 
 ###### Avoiding Silos
@@ -344,6 +349,7 @@ we need to think again about our organisation design".
 
 - Role of architects to help define these boundaries as interfaces.
 
+
 ##### Chapter 8 - Evolve Team Structures with Organisational Sensing
 
 - **The deliberate change in team interaction to enhance delivery capability is the essence of strategic technology leadership**
@@ -367,6 +373,7 @@ we need to think again about our organisation design".
 - Keep ops at least aligned to the same value stream as dev.
 
 - Separate maintenance/BAU teams work against reponsiveness.
+
 
 ##### Chapter 8 - Next Generation Digital Operating Model
 

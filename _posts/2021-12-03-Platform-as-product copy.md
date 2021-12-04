@@ -1,0 +1,77 @@
+---
+layout: fullpost
+title: Platform as Product
+summary: Notes from the Platform as Product training session.
+series: notes
+published: true
+---
+
+
+- Traditional platform approach was to share services across teams, to reduce infra and tooling costs. A centralised approach. Cloud changed the paradigm.
+
+- Standardisation was also a characterisitic of this traditional approach.
+
+- Stream aligned teams increasingly being asked to take on more - increasing their cognitive load.
+
+- Stream aligned teams need end to end ownership of their service and service lifecycle.
+
+- So how can we balance giving full ownership without at the same time introducing a debilitating level of cognitive load --? PLATFORM AS A PRODUCT.
+
+- Platform as a product MUST simplify tasks and workflows that teams need to build and run. It must reduce cognitive load. Reduce their need to understand underlying services.
+
+
+
+### SECTION 1: Platform Value
+
+- Any platform needs to add value to customers. What benefits are they getting? Look at value proposition canvas - https://www.youtube.com/watch?v=ReM1uqmVfP0
+
+- Platform engineering requires long-term funding.
+
+- Modern platform teams do not block, contrary to those that are request or ticket-based.
+
+- Platform team provide internal services that abstract away low level concerns (infra provisioning, deployment pipelines, monitoring).
+
+- Reduce the number of decisions an engineering team has to make - Spotify.
+
+- Reduce team cognitive load.
+
+- Provide useful abstractions for development teams.
+
+- Takes complexity and simplifies it.
+
+- Platform needs to be easy to understand, cover the relevant use cases and be available and scalable.
+
+- Make the right thing the easy thing to do.
+
+- Don't force teams to use the platform - provide optionality (where appropriate. In some cases, there aren't easy alternatives, such as IDM or Access Control).
+
+- Teams are accountable for meeting governance targets. If they decide to go their own way, they need to take this responsibility.
+
+- Standardizing for the sake of it can kill innovation.
+
+- Provide multiple options. Teams can choose which options they want based on their own level of experiencel
+
+- We need a way to measure the value we are providing.
+
+- quarterly survey - agree or disagree to these statements (Twilio example). Or NPS.
+
+
+
+### SECTION 2: Platform Customers
+
+- Customers are teams using the platform services.
+
+- Different teams have different needs. Maturity levels may be different.
+
+- Develop personas to flesh out user needs.
+
+- Build thinnest viable platform needed to deliver the value proposition. Smallest set of APIs, documentation, tools.
+
+- Make time and room for discovery work
+
+
+### SECTION 3: Platform Experience
+
+- Internal users of your platform will have expectations based on their experience using common SaaS offering like Github etc.
+
+- 

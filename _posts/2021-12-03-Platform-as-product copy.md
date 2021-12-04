@@ -6,6 +6,7 @@ series: notes
 published: true
 ---
 
+![image](https://user-images.githubusercontent.com/29025275/144725983-bec75ef4-92a1-456a-8266-1a84ca07318b.png)
 
 - Traditional platform approach was to share services across teams, to reduce infra and tooling costs. A centralised approach. Cloud changed the paradigm.
 
@@ -116,12 +117,6 @@ published: true
 
 - Build a platform team with the product skills needed.
 
-
-
-
-
-
-- 
 
 
 

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
   <meta charset="UTF-8">
@@ -27,8 +26,8 @@
  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
 
-  
-     <!-- NAV -->
+  <body>
+    <!-- NAV -->
 <body>
 
             <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center nav-padding py-0 px-0">
@@ -54,7 +53,7 @@
   </div>
 </nav>
 
-     <section id="banner">
+    <section id="banner">
 <div class="banner">
  <div class="container">
      <div class="row">
@@ -73,151 +72,128 @@
 </div>
 </section>
 
-    <section id="posts">
-  <div class="container pt-3">
-    <h2 class="about-title">NOTES</h2>
-      
-    <div class="row post-entry">
-      <div class="col-sm-2">
-
-        <p class="post-date">
-          <span class="day">03</span>
-          <br class="post-divider">
-          <span class="month-year">Dec 2021</span>
-        </p>
-
-      </div>
-      <div class="col-sm-10 post-entry-details">
-        <h4><a href="/Platform-as-product-copy/" class ="fullpost-title">Platform as Product</a></h4>
-          <p>
-            
-              Notes from the Platform as Product training session.
-              
-            </p>
-            <p></p>
-      </div>
-    <div class="col-sm-12 post-divider">
+    <div id="post" class="container pt-3 pr-4">
+  <div class="row">
+    <div class="col-sm-12 post-entry-details">
+      <h2 class="fullpost-title">Platform as Product</h2>
+      <p class="h5 fullpost-date">
+        Dec 3, 2021
+      </p>
+      <p class="fullpost-summary">Notes from the Platform as Product training session.</p>
+      <div class="col-sm-12 post-divider"></div>
     </div>
   </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <p class="copytext"><ul>
+  <li>
+    <p>Traditional platform approach was to share services across teams, to reduce infra and tooling costs. A centralised approach. Cloud changed the paradigm.</p>
+  </li>
+  <li>
+    <p>Standardisation was also a characterisitic of this traditional approach.</p>
+  </li>
+  <li>
+    <p>Stream aligned teams increasingly being asked to take on more - increasing their cognitive load.</p>
+  </li>
+  <li>
+    <p>Stream aligned teams need end to end ownership of their service and service lifecycle.</p>
+  </li>
+  <li>
+    <p>So how can we balance giving full ownership without at the same time introducing a debilitating level of cognitive load –? PLATFORM AS A PRODUCT.</p>
+  </li>
+  <li>
+    <p>Platform as a product MUST simplify tasks and workflows that teams need to build and run. It must reduce cognitive load. Reduce their need to understand underlying services.</p>
+  </li>
+</ul>
 
-    <div class="row post-entry">
-      <div class="col-sm-2">
+<h3 id="section-1-platform-value">SECTION 1: Platform Value</h3>
 
-        <p class="post-date">
-          <span class="day">02</span>
-          <br class="post-divider">
-          <span class="month-year">Nov 2021</span>
-        </p>
+<ul>
+  <li>
+    <p>Any platform needs to add value to customers. What benefits are they getting? Look at value proposition canvas - https://www.youtube.com/watch?v=ReM1uqmVfP0</p>
+  </li>
+  <li>
+    <p>Platform engineering requires long-term funding.</p>
+  </li>
+  <li>
+    <p>Modern platform teams do not block, contrary to those that are request or ticket-based.</p>
+  </li>
+  <li>
+    <p>Platform team provide internal services that abstract away low level concerns (infra provisioning, deployment pipelines, monitoring).</p>
+  </li>
+  <li>
+    <p>Reduce the number of decisions an engineering team has to make - Spotify.</p>
+  </li>
+  <li>
+    <p>Reduce team cognitive load.</p>
+  </li>
+  <li>
+    <p>Provide useful abstractions for development teams.</p>
+  </li>
+  <li>
+    <p>Takes complexity and simplifies it.</p>
+  </li>
+  <li>
+    <p>Platform needs to be easy to understand, cover the relevant use cases and be available and scalable.</p>
+  </li>
+  <li>
+    <p>Make the right thing the easy thing to do.</p>
+  </li>
+  <li>
+    <p>Don’t force teams to use the platform - provide optionality (where appropriate. In some cases, there aren’t easy alternatives, such as IDM or Access Control).</p>
+  </li>
+  <li>
+    <p>Teams are accountable for meeting governance targets. If they decide to go their own way, they need to take this responsibility.</p>
+  </li>
+  <li>
+    <p>Standardizing for the sake of it can kill innovation.</p>
+  </li>
+  <li>
+    <p>Provide multiple options. Teams can choose which options they want based on their own level of experiencel</p>
+  </li>
+  <li>
+    <p>We need a way to measure the value we are providing.</p>
+  </li>
+  <li>
+    <p>quarterly survey - agree or disagree to these statements (Twilio example). Or NPS.</p>
+  </li>
+</ul>
 
-      </div>
-      <div class="col-sm-10 post-entry-details">
-        <h4><a href="/Team-Topologies/" class ="fullpost-title">Team Topologies</a></h4>
-          <p>
-            
-              "An effective, modern organisation building and running software is a product of the interactions between teams"
-              
-            </p>
-            <p></p>
-      </div>
-    <div class="col-sm-12 post-divider">
+<h3 id="section-2-platform-customers">SECTION 2: Platform Customers</h3>
+
+<ul>
+  <li>
+    <p>Customers are teams using the platform services.</p>
+  </li>
+  <li>
+    <p>Different teams have different needs. Maturity levels may be different.</p>
+  </li>
+  <li>
+    <p>Develop personas to flesh out user needs.</p>
+  </li>
+  <li>
+    <p>Build thinnest viable platform needed to deliver the value proposition. Smallest set of APIs, documentation, tools.</p>
+  </li>
+  <li>
+    <p>Make time and room for discovery work</p>
+  </li>
+</ul>
+
+<h3 id="section-3-platform-experience">SECTION 3: Platform Experience</h3>
+
+<ul>
+  <li>
+    <p>Internal users of your platform will have expectations based on their experience using common SaaS offering like Github etc.</p>
+  </li>
+  <li></li>
+</ul>
+
+</p>
     </div>
   </div>
+</div>
 
-    <div class="row post-entry">
-      <div class="col-sm-2">
 
-        <p class="post-date">
-          <span class="day">07</span>
-          <br class="post-divider">
-          <span class="month-year">Jun 2021</span>
-        </p>
-
-      </div>
-      <div class="col-sm-10 post-entry-details">
-        <h4><a href="/Continuous-Delivery/" class ="fullpost-title">Continuous Delivery</a></h4>
-          <p>
-            
-              All the things I marked with my big yellow highlighter, during a recent re-read of Jez Humble and Dave Farley's 'Continuous Delivery'.
-              
-            </p>
-            <p></p>
-      </div>
-    <div class="col-sm-12 post-divider">
-    </div>
-  </div>
-
-    <div class="row post-entry">
-      <div class="col-sm-2">
-
-        <p class="post-date">
-          <span class="day">20</span>
-          <br class="post-divider">
-          <span class="month-year">Dec 2020</span>
-        </p>
-
-      </div>
-      <div class="col-sm-10 post-entry-details">
-        <h4><a href="/The-Coaching-Habit/" class ="fullpost-title">The Coaching Habit</a></h4>
-          <p>
-            
-              Key takeaways from Michael Bungay Stanier's book, 'The Coaching Habit'.
-              
-            </p>
-            <p></p>
-      </div>
-    <div class="col-sm-12 post-divider">
-    </div>
-  </div>
-
-    <div class="row post-entry">
-      <div class="col-sm-2">
-
-        <p class="post-date">
-          <span class="day">19</span>
-          <br class="post-divider">
-          <span class="month-year">Oct 2020</span>
-        </p>
-
-      </div>
-      <div class="col-sm-10 post-entry-details">
-        <h4><a href="/Six-Myths-of-Product-Development-copy/" class ="fullpost-title">6 Myths of Product Development</a></h4>
-          <p>
-            
-              My notes from the HBR article '6 Myths of Product Development'. 
-
-              
-            </p>
-            <p></p>
-      </div>
-    <div class="col-sm-12 post-divider">
-    </div>
-  </div>
-
-    <div class="row post-entry">
-      <div class="col-sm-2">
-
-        <p class="post-date">
-          <span class="day">01</span>
-          <br class="post-divider">
-          <span class="month-year">Jun 2020</span>
-        </p>
-
-      </div>
-      <div class="col-sm-10 post-entry-details">
-        <h4><a href="/Advanced-Pipeline-Techniques/" class ="fullpost-title">Advanced Pipeline Techniques</a></h4>
-          <p>
-            
-              My key takeaways from Dave Farley's 'Advanced Deployment Pipeline  Techniques' Masterclass seminar, part of GOTO Copenhagen 2020.
-              
-            </p>
-            <p></p>
-      </div>
-    <div class="col-sm-12 post-divider">
-    </div>
-  </div>
-
-      </div>
-</section>
 
 
     <footer class="py-5">
@@ -263,5 +239,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  
+  </body>
 </html>

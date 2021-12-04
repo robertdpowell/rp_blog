@@ -74,4 +74,54 @@ published: true
 
 - Internal users of your platform will have expectations based on their experience using common SaaS offering like Github etc.
 
+- Once platform grows, we need to consider the consistency of the user experience provided. Separate teams within the same platform can lead to inconsistency. A shared set of principles and temmplates can help coherence. A UX enabling team could help here.
+
+- Avoid a poor developer experience. 
+
+- Jako Nielsen's ten usability heuristics.
+
+- nordicapis.com Three principles of excellent API design.
+
+- CLI guidelines (from ex Docker employees).
+
+
+### SECTION 4: Platform Adoption Cycle
+
+- Product adoption lifecycle.
+
+- Crossing the chasm between early adopters and early majority requires work. Work closely with the early adopters to refine the solution so that is can cross the chasm.
+
+- Measure platform adoption.
+
+- Solve problems that drive adoption.
+
+- Reduce friction for the early majority.
+
+- Use semantic versioning to communicate changes.
+
+- Don't worry too much about the laggards. Focus on optimising the 80% who use it.
+
+- Selll the platform.
+
+
+### SECTION 5: Summary
+
+- Define platform value. Which team outcomes does the platform support? How does it simplify or accelerate the work of the engineering team? Better deployment frequency? Faster test execution? Simpler setup of new application environments? Easier access to data?
+
+- Know your customers and define personas.
+
+- Move from mandate to opt-in.
+
+- Open the communication channels.
+
+- Build a platform team with the product skills needed.
+
+
+
+
+
+
 - 
+
+
+

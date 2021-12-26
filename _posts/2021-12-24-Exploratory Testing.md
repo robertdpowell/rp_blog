@@ -6,7 +6,10 @@ series: notes
 published: true
 ---
 
-<iframe class="img-fluid" src="https://atlas.mindmup.com/robertdpowell/exploratory_testing/index.html"></iframe>
+<div class="embed-responsive embed-responsive-16by9">
+ <iframe class="img-fluid" src="https://atlas.mindmup.com/robertdpowell/exploratory_testing/index.html"></iframe>
+</div>
+
 
 
 ##### Postman

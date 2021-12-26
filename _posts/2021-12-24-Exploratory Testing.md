@@ -7,7 +7,7 @@ published: true
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
- <iframe class="img-fluid" src="https://atlas.mindmup.com/robertdpowell/exploratory_testing/index.html"></iframe>
+ <iframe src="https://atlas.mindmup.com/robertdpowell/exploratory_testing/index.html"></iframe>
 </div>
 
 

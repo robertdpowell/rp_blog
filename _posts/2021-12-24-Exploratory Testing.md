@@ -3,7 +3,7 @@ layout: fullpost
 title: Exploratory Testing
 summary: 
 series: notes
-published: true
+published: false
 ---
 
 <div class="embed-responsive embed-responsive-16by9">

@@ -3,7 +3,7 @@ layout: fullpost
 title: Testing References
 summary: Bookmarks and references
 series: notes
-published: true
+published: false
 ---
 
 

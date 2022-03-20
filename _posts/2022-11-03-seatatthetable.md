@@ -1,7 +1,7 @@
 ---
 layout: fullpost
 title: A Seat At The Table
-summary: Highlights from Mark Schwartz's book
+summary: Highlights from Mark Schwartz book
 series: notes
 published: true
 ---

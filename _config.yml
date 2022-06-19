@@ -20,4 +20,6 @@ twitter_username: rdp81
 collections:
   explainers:
     output: true
+  bookmarks:
+    output: true
 

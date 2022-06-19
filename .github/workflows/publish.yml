@@ -3,7 +3,7 @@ name: jekyll-cd
 on:
   push:
     branches:
-      - gh-pages
+      - test
 
 jobs:
   build:

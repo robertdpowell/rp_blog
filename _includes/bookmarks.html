@@ -4,10 +4,8 @@
     <h2 class="about-title">BOOKMARKS</h2>
       {% for post in site.bookmarks %}
     <div class="row post-entry">
-      <div class="col-sm-2">
 
-      </div>
-      <div class="col-sm-10 post-entry-details">
+      <div class="col-sm-12 post-entry-details">
         <h4><a href="{{ post.url | prepend: site.baseurl }}" class ="fullpost-title">{{ post.title }}</a></h4>
           <p>
             {% if post.summary %}

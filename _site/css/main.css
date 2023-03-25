@@ -6495,9 +6495,9 @@ a.text-dark:hover, a.text-dark:focus {
   width: 80px; }
 
 .navbar {
-  box-shadow: 1px 1px 3px #2948ff;
-  opacity: 0.6;
-  background: #fff; }
+  background: -webkit-linear-gradient(to right, #2948ff, #396afc);
+  background: linear-gradient(to right, #2948ff, #396afc);
+  box-shadow: 1px 1px 3px #2948ff; }
 
 .nav-item {
   font-size: 1.1rem;
@@ -6505,9 +6505,13 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center; }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #2948ff; }
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease; }
   .navbar-light .navbar-nav .nav-link:hover {
-    color: #396afc; }
+    color: #396afc;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-shadow: none; }
 
 .banner {
   background: -webkit-linear-gradient(to right, #2948ff, #396afc);

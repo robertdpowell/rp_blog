@@ -3,16 +3,22 @@
   width: 80px
 
 .navbar
+  background: -webkit-linear-gradient(to right, $leftgradient, $rightgradient)
+  background: linear-gradient(to right, $leftgradient, $rightgradient)
   box-shadow: 1px 1px 3px $primary
-  opacity: 0.6
-  background: $white
 
 .nav-item
   font-size: 1.1rem
   padding-right: 15px
   text-align: center
-  
+
 .navbar-light .navbar-nav .nav-link
-  color: $primary
+  color: white
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3)
+  transition: all 0.3s ease
+
   &:hover
-      color: $info 
+    color: $info
+    background-color: rgba(255, 255, 255, 0.1)
+    text-shadow: none
+

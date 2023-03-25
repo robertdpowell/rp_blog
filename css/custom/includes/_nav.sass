@@ -4,15 +4,15 @@
 
 .navbar
   box-shadow: 1px 1px 3px $primary
-  opacity: 0.6
-  background: $white
+  opacity: 0.9
+  background: linear-gradient(135deg, $primary 0%, $secondary 100%)
 
 .nav-item
   font-size: 1.1rem
   padding-right: 15px
   text-align: center
-  
+
 .navbar-light .navbar-nav .nav-link
-  color: $primary
+  color: $white
   &:hover
-      color: $info 
+    color: lighten($white, 20%)

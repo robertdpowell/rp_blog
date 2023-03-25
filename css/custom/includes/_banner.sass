@@ -1,17 +1,32 @@
 .banner
-  position: relative
-  background: $primary
+  background: -webkit-linear-gradient(to right, $leftgradient, $rightgradient)
+  background: linear-gradient(to right, $leftgradient, $rightgradient)
+
   min-height: 50vh
   display: flex
   align-items: center
 
-  &:before
-    content: ''
-    position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    background: linear-gradient(135deg, $primary 0%, $secondary 100%)
-    opacity: 0.8
-    z-index: -1
+
+@media (min-width: 768px)
+  .home-title
+    font-size: 4.5em
+    text-transform: uppercase
+    font-weight: bold
+    color: #FFF8F0
+
+@media (max-width: 767px)
+  .home-title
+    font-size: 2.0em
+    text-transform: uppercase
+    font-weight: bold
+    color: #FFF8F0
+
+.home-subtitle
+    font-size: 1.6rem
+    text-align: center
+    color: #FFF8F0
+    padding: 40px
+
+.ml3
+  font-weight: 900
+  font-size: 2.0em

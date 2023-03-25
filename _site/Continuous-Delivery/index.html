@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name=”description” content="Thoughts-Ideas-More">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" href="https://robertdpowell.github.io/rp_blog/img/logo.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="https://robertdpowell.github.io/rp_blog/img/logo.png" sizes="16x16" />
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-132422817-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132422817-1');
+</script>
+
+  <title>Rob Powell</title>
+
+<link rel="stylesheet" href="https://robertdpowell.github.io/rp_blog/css/main.css">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+</head>
+
+  <body>
+    <!-- NAV -->
+<body>
+
+            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center nav-padding py-0 px-0">
+
+            <!-- <a href="/"  alt="Logo link to return you to home page" class="d-flex mr-auto logo"><img src="https://robertdpowell.github.io/rp_blog//img/logo.png" alt="Blog Logo" class="logo"><span hidden>Rob Powell</span></a> -->
+
+    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/" class="nav-link">NOTES</a>
+        </li>
+        <li class="nav-item">
+          <a href="/topics/" class="nav-link">TOPICS</a>
+        </li>
+        <li class="nav-item">
+          <a href="/bookmarks/" class="nav-link">BOOKMARKS</a>
+        </li>
+        <li class="nav-item">
+          <a href="/about/" class="nav-link">ABOUT</a>
+        </li>
+       
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <section id="banner">
+    <div class="banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h1 class="text-center home-title">Rob Powell</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2"></div>
+          <div class="col-sm-8">
+            <h2 class="home-subtitle">Thoughts / Notes / More...</h2>
+          </div>
+          <div class="col-sm-2"></div>
+        </div>
+      </div>
+      <div class="overlay"></div>
+    </div>
+  </section>
+  
+    <div id="post" class="container pt-3 pr-4">
+  <div class="row">
+    <div class="col-sm-12 post-entry-details">
+      <h2 class="fullpost-title">Continuous Delivery</h2>
+      <p class="h5 fullpost-date">
+        Jun 7, 2021
+      </p>
+      <p class="fullpost-summary">All the things I marked with my big yellow highlighter, during a recent re-read of Jez Humble and Dave Farley's 'Continuous Delivery'.</p>
+      <div class="col-sm-12 post-divider"></div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12">
+      <p class="copytext"><h5 id="chapter-1---the-problem-of-delivering-software">CHAPTER 1 - THE PROBLEM OF DELIVERING SOFTWARE</h5>
+
+<ul>
+  <li>
+    <p>There should be just two human tasks involved in a software release - pick the version and environment, and press deploy.</p>
+  </li>
+  <li>
+    <p>Deployments should be repeatable and reliable.</p>
+  </li>
+  <li>
+    <p>The deployment process should be used by everyone and must be the only way of getting to production.</p>
+  </li>
+  <li>
+    <p>All changes must be in version control.</p>
+  </li>
+  <li>
+    <p>We need an automated rollback process if the deployment goes wrong.</p>
+  </li>
+  <li>
+    <p>We aim for push-button software releases.</p>
+  </li>
+  <li>
+    <p>Our aim is to find ways to reduce cycle time, to create an effective feedback loop.</p>
+  </li>
+  <li>
+    <p>Frequent releases mean smaller deltas and easier rollback.</p>
+  </li>
+  <li>
+    <p>Building and testing the application for its release worthiness on every check-in is known as continuous integration.</p>
+  </li>
+  <li>
+    <p>If any environment configuration changes, the whole system needs to be tested.</p>
+  </li>
+  <li>
+    <p>Defects are best detected when they are introduced, not late in the process.</p>
+  </li>
+  <li>
+    <p>Every check in should lead to a potential release. Every change is a release candidate.</p>
+  </li>
+  <li>
+    <p>Integration is painful so we should do it more often - as a result of every single change in the system.</p>
+  </li>
+  <li>
+    <p>If we have sufficient tests and are running them on a production like environment, our software should always be in a releasable state.</p>
+  </li>
+  <li>
+    <p>The purpose of a continuous integration system is to prove that the change/release candidate is not fit for production.</p>
+  </li>
+  <li>
+    <p>A deployment includes provisioning the infra, installing the correct version of the app, configuring the app including data or state.</p>
+  </li>
+  <li>
+    <p>Automate the bottlenecks. Automate over time.</p>
+  </li>
+  <li>
+    <p>All aspects should be in version control, referenced by the same unique identifier that represents that build version.</p>
+  </li>
+  <li>
+    <p>We should be able to see which builds are in which environments and which versions from version control these builds derived from.</p>
+  </li>
+  <li>
+    <p>‘Build quality in’ - Deming.</p>
+  </li>
+  <li>
+    <p>Everyone on the delivery team is responsible for quality all of the time.</p>
+  </li>
+  <li>
+    <p>Regular retrospectives (involving everyone) on the delivery process - and continuous improvement.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-2---configuration-management">CHAPTER 2 - CONFIGURATION MANAGEMENT</h5>
+
+<ul>
+  <li>
+    <p>CM records the evolution of your systems over time.</p>
+  </li>
+  <li>
+    <p>Everything should be reproducible and easily changeable and easily traceable back.</p>
+  </li>
+  <li>
+    <p>No binaries in version control!</p>
+  </li>
+  <li>
+    <p>Don’t branch - commit to trunk and version control regularly - continuous integration.Find issues more quickly!</p>
+  </li>
+  <li>
+    <p>Run a pre-commit test suite before checking in.</p>
+  </li>
+  <li>
+    <p>Use good commit messages.</p>
+  </li>
+  <li>
+    <p>Create a repo with approved dependencies.</p>
+  </li>
+  <li>
+    <p>No passwords in version control!</p>
+  </li>
+  <li>
+    <p>Ping external services during deployment to confirm next stages can start ok.</p>
+  </li>
+  <li>
+    <p>Make environment creation a fully automated process.</p>
+  </li>
+  <li>
+    <p>Production environments should be completely locked down.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-3---implementing-continuous-integration">CHAPTER 3 - Implementing Continuous Integration</h5>
+
+<ul>
+  <li>
+    <p>Goal of CI - to keep your software in a working state at all times. Software is broken until proven otherwise.</p>
+  </li>
+  <li>
+    <p>Integration is a useful exercise, so we do it more often.</p>
+  </li>
+  <li>
+    <p>CI is a practice not a tool - Checking in small incremental changes to mainline frequently and commiting to fixing any resulting issues immediately.</p>
+  </li>
+  <li>
+    <p>Impossible to do CI with branches as branches are, by definition, not integrated.</p>
+  </li>
+  <li>
+    <p>COMMIT - Compile, run unit tests, create deployable binary, run acceptance tests against binary.</p>
+  </li>
+  <li>
+    <p>Don’t check in on a broken build.</p>
+  </li>
+  <li>
+    <p>Run commit tests locally before committing (faster feedback).</p>
+  </li>
+  <li>
+    <p>To do CI effecively, everyone needs access to the whole codebase so each developer can fix any part of the code broken during the build.</p>
+  </li>
+  <li>
+    <p>‘The only way to get excellent unit test coverage is through test driven development’.</p>
+  </li>
+  <li>
+    <p>If tests run quickly, developers will check in more frequently. Avoid slow-running tests.</p>
+  </li>
+  <li>
+    <p>Fail builds on warnings or at least, fail it if the net result of build is more warnings, not less.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-4---implementing-a-testing-strategy">CHAPTER 4 - Implementing a Testing Strategy</h5>
+
+<ul>
+  <li>
+    <p>A test strategy tells us how we address certain risks in our product.</p>
+  </li>
+  <li>
+    <p>Limit automated acceptance testing to complete coverage of happy paths and limited coverage of the most important other parts.</p>
+  </li>
+  <li>
+    <p>Testing at the right time leads to better code.</p>
+  </li>
+  <li>
+    <p>When starting automation mid project or even post-project, begin with highest value application use cases (most common, happy paths, broad tests) then defend them with regression tests.</p>
+  </li>
+  <li>
+    <p>Legacy systems are those without automated tests.</p>
+  </li>
+  <li>
+    <p>Integration testing - service provider should provide replicas for other teams to use.</p>
+  </li>
+  <li>
+    <p>Zero defect approach. James Shore.</p>
+  </li>
+  <li>
+    <p>Testing is about establishing feedback loops that drive development, design and release.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h6 id="the-following-taken-from-chapter-12---managing-data-but-seems-a-better-fit-here">(the following taken from Chapter 12 - Managing Data, but seems a better fit here)</h6>
+
+<ul>
+  <li>
+    <p>We test to assert the behaviour we desire is present. We run unit tests to protect ourselves against committing a change that breaks the app. We run acceptance tests to assert the app delivers value to users. We run capacity tests to assert that our capacity requirements are satisfied. We run integration tests to assert that our application is communicating effectively with services it depends on.</p>
+  </li>
+  <li>
+    <p>Good commit tests avoid elaborate data setup.</p>
+  </li>
+  <li>
+    <p>We want to limit the data specific to each test to that which it needs to prove the behaviour it is trying to assert.</p>
+  </li>
+  <li>
+    <p>We want to avoid that our tests are reliant on complex, large data structures.</p>
+  </li>
+  <li>
+    <p>Use the apps API to manage the data needed for your test.</p>
+  </li>
+  <li>
+    <p>Re-use auto acceptance test as input to capacity tests.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-5---anatomy-of-the-deployment-pipeline">CHAPTER 5 - Anatomy of the deployment pipeline</h5>
+
+<ul>
+  <li>
+    <p>The deployment pipeline is a paradigm for moving for moving code from check-in to production in a controlled way.</p>
+  </li>
+  <li>
+    <p>Much of the waste in software release comes from the progress of software through testing and operations.</p>
+  </li>
+  <li>
+    <p>Check hashes of binaries to prove they are the same at each stage of the deployment pipeline.</p>
+  </li>
+  <li>
+    <p>Why we only build once ==&gt; more efficient, builds upon solid foundations.</p>
+  </li>
+  <li>
+    <p>Should be able to see on a dashboard the status of all releases.</p>
+  </li>
+  <li>
+    <p>Best back-out strategy is to keep the previous version of your release while deploying the new version. Otherwise, redeploy the last known good version if in a ‘we need to rollback’ situation.</p>
+  </li>
+  <li>
+    <p>Model your pipeline as a value stream. Your pipeline is your model of the process for build, deploy, test, release.</p>
+  </li>
+  <li>
+    <p>Information radiators for your pipeline!</p>
+  </li>
+  <li>
+    <p>The most important global metric is cycle time, but there are other diagnostics that can warn you of problems.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-6---build-and-deploy-scripting">CHAPTER 6 - Build and Deploy Scripting</h5>
+
+<ul>
+  <li>
+    <p>Developers and operations staff should decide how to automate deployments together.</p>
+  </li>
+  <li>
+    <p>If middleware tools come with tools to configure and deploy - use them.</p>
+  </li>
+  <li>
+    <p>If your app is tested, built and and integrated as a single piece, deploy it as a single piece.</p>
+  </li>
+  <li>
+    <p>You can deploy only the components that are changing if you have already tested the existing combination of components, in production.</p>
+  </li>
+  <li>
+    <p>When deploying we need to be testing at each layer post deployment, to check for presence or absence of key components.</p>
+  </li>
+  <li>
+    <p>We need traceability between binaries and revision control.</p>
+  </li>
+  <li>
+    <p>Don’t fail build on failed tests. Give it a warning colour and highlight the issues.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-7---the-commit-stage">CHAPTER 7 - The Commit Stage</h5>
+
+<ul>
+  <li>
+    <p>Commit stage is the bouncer at the door, that does not allow unfit for prod builds to make it through the pipeline.</p>
+  </li>
+  <li>
+    <p>In the commit phase, we either create a deployable artifact or fail fast and tell team why.</p>
+  </li>
+  <li>
+    <p>We can also run commit tests before checking, to get even earlier feedback.</p>
+  </li>
+  <li>
+    <p>We want an aggregated report of all commit failures, but don’t necessarily always want to fail the build.</p>
+  </li>
+  <li>
+    <p>Keep scripts modular, keeping common tasks separate from frequently changing tasks.</p>
+  </li>
+  <li>
+    <p>Avoid environment specific scripts.</p>
+  </li>
+  <li>
+    <p>Give developers ownership.</p>
+  </li>
+  <li>
+    <p>We can purge binaries that failed, as we are no longer interested in them.</p>
+  </li>
+  <li>
+    <p>Keep hashes of your binaries in permanent storage so we can verify we can recreate exactly the same thing and audit back from production.</p>
+  </li>
+  <li>
+    <p>Commit stage provides the biggest bang for our buck in the deployment pipeline!</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-8---automated-acceptance-testing">CHAPTER 8 - Automated Acceptance Testing</h5>
+
+<ul>
+  <li>
+    <p>Acceptance tests not only help with regression but make us consider, what does success look like for each requirement?</p>
+  </li>
+  <li>
+    <p>A DSL is a programming language targeted at solving a problem specific to a particular problem domain.</p>
+  </li>
+  <li>
+    <p>Auto acceptance tests written with involvement of testers are better at finding defects than developer tests.</p>
+  </li>
+  <li>
+    <p>Need to be pitched at the right level - at the level of behaviour and not implementaion. “If I place an order, is it accepted?”</p>
+  </li>
+  <li>
+    <p>Auto acceptance tests differ from user acceptance tests - and should not run in an environment that includes integration to external systems.</p>
+  </li>
+  <li>
+    <p>We can use test doubles to represent the connection external systems.</p>
+  </li>
+  <li>
+    <p>Acceptance tests should be run against every build that passes the commit tests - tests that run later are the ones that rely more on human judgement.</p>
+  </li>
+  <li>
+    <p>Without excellent auto acceptance test coverage, we find bugs late and/or we spend lots of time/money on manual acceptance/regression testing and or the released software is of poor quality.</p>
+  </li>
+  <li>
+    <p>Automated acceptance tests should be created, owned and maintained by the delivery team, not a separate testing team.</p>
+  </li>
+  <li>
+    <p>When an acceptance test breaks, the team must stop to triage and fix as soon as possible.</p>
+  </li>
+  <li>
+    <p>Use deployment tests to show the deployment has been successful and to give us a known-good starting position.</p>
+  </li>
+  <li>
+    <p>Automated acceptance tests will pay for itself many times over, allowing us to change large parts of our system safely.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-9---testing-nfrs">CHAPTER 9 - Testing NFRs</h5>
+
+<ul>
+  <li>
+    <p>Difference between performance and capacity - performance is the time taken to process a single transaction, capacity is the max throughput a system can sustain while maintaining acceptable response times per transaction.</p>
+  </li>
+  <li>
+    <p>Identify your capacity risks at the start of a project and work to avoid running in to them.</p>
+  </li>
+  <li>
+    <p>Use production traffic to guide your tests.</p>
+  </li>
+  <li>
+    <p>Create graphs for capacity tests that show trends over time.</p>
+  </li>
+  <li>
+    <p>Isolate capacity test environments from other influences.</p>
+  </li>
+  <li>
+    <p>NFRs are the equivalent of making sure bridge beams are strong enough to cope with load and weather. These are crucial to the person building the bridge but probably not foremost in the minds of the people paying for it (they want a solution to get from one side to the other).</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-10---deploying-and-releasing-applications">CHAPTER 10 - Deploying and Releasing Applications</h5>
+
+<ul>
+  <li>
+    <p>Difference between deploying and releasing is the ability to roll back.</p>
+  </li>
+  <li>
+    <p>Should always be possible to see exactly which versions of your application are in which environments, who authorized the deployment and what changes have been made to the app since it was last deployed.</p>
+  </li>
+  <li>
+    <p>Define a release strategy to ensure a shared understanding of the release lifecycle.</p>
+  </li>
+  <li>
+    <p>Model the release process (as a diagram).</p>
+  </li>
+  <li>
+    <p>Pre-deployment, the environment and infra need to be put into a clean state. This shoud be fully automated.</p>
+  </li>
+  <li>
+    <p>Promote environment and app config at same time as binaries.</p>
+  </li>
+  <li>
+    <p>Get your deployment into prod before release! Separate deployments from release.</p>
+  </li>
+  <li>
+    <p>Roll-backs are essential. Complicating factors are data that has been changed during the deployment and orchestrated releases of many systems.</p>
+  </li>
+  <li>
+    <p>Firstly - ensure there is a backup of production before doing a release.</p>
+  </li>
+  <li>
+    <p>Blue/Green - 2 x prods, deploy new version to green then gradually redirect people from blue to green (more challenging for DBs given the data migration involved). If there is only 1 prod, have two copies running on the server in isolated spaces with their own resources. OR, use staging as your second prod.</p>
+  </li>
+  <li>
+    <p>Canary releasing - rollout new app to a subset of the production users. Rollback easy - just stop routing users to the bad version.</p>
+  </li>
+  <li>
+    <p>Emergency fixes - do not subvert your process!! They should go through the same build/deploy/test process as all other changes. This also encourages us to keep our cycle time low. Sometimes, easier to rollback to a previous version than to try and fix.</p>
+  </li>
+  <li>
+    <p>Allow some ‘warm-up’ time for new deployments.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-11---managing-infrastructure-and-environments">CHAPTER 11 - Managing Infrastructure and Environments</h5>
+
+<ul>
+  <li>
+    <p>Your desired state of infra should be specified through version controlled config.</p>
+  </li>
+  <li>
+    <p>Log all errors to a well-known location, with appropriate severity.</p>
+  </li>
+  <li>
+    <p>If some infra config is specific to a specific app, its deployment should be tied to the app and it should not have its own lifecycle.</p>
+  </li>
+  <li>
+    <p>Lock down prod changes to everybody, without exception.</p>
+  </li>
+  <li>
+    <p>Should be possible to see a history of changes made to each environment including deployments.</p>
+  </li>
+  <li>
+    <p>We need the capability to delpoy infra changes from version control.</p>
+  </li>
+  <li>
+    <p>Be wary of expensive middleware tools that are not capable of being deployed or configured in an automated way.</p>
+  </li>
+  <li>
+    <p>Logging is your friend.</p>
+  </li>
+  <li>
+    <p>Avoid ‘works of art’.</p>
+  </li>
+  <li>
+    <p>We should be retriggering our pipeline every time infra changes, just like we do with app changes.</p>
+  </li>
+  <li>
+    <p>For monitoring, we need to collect data at the levels of hardware, OS, middleware and application.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-12---managing-data">CHAPTER 12 - Managing Data</h5>
+
+<ul>
+  <li>
+    <p>Automated scripts to erase DB, create DB and load DB with data.</p>
+  </li>
+  <li>
+    <p>Effective technique is to version your entire databases and have two scripts - one to take it forward a version and another to roll it back.</p>
+  </li>
+  <li>
+    <p>Test data - have your tests create the data, use it, then return DB to its original state.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-13---managing-components-and-dependencies">CHAPTER 13 - Managing Components and Dependencies</h5>
+
+<ul>
+  <li>
+    <p>How to keep your application releasable always? Hide functionality until it is ready, or make small changes each of which is releasable, or break up into components that change at different rates.</p>
+  </li>
+  <li>
+    <p>Use configuration settings to turn on and off components.</p>
+  </li>
+  <li>
+    <p>Shipping semi-completed functionality is a good practice because it means we are always integrating and testing the entire system, as it exists at any one time.</p>
+  </li>
+  <li>
+    <p>Libraries - software packages our team does not control.</p>
+  </li>
+  <li>
+    <p>Components - software packages built by us, that we are dependent on.</p>
+  </li>
+  <li>
+    <p>Build time dependencies used at compile time, run-time dependencies used while it running, doing its normal thing.</p>
+  </li>
+  <li>
+    <p>Splitting a large codebase into components should primarily be done to increase our efficiency as a team.</p>
+  </li>
+  <li>
+    <p>Pipelining your components - have a single pipeline for your entire application.</p>
+  </li>
+  <li>
+    <p>Use an integration pipeline to collate the binaries for the release then deploy them together as an integrated set, before continuing with the testing stages of the pipeline.</p>
+  </li>
+  <li>
+    <p>We need to consider upstream and downstream dependencies of a component, and after a change, trigger the corresponding pipelines to validate the new combination of artefact versions.</p>
+  </li>
+  <li>
+    <p>The pipeline should tell us if any of our changes have broken any of our dependencies by mistake.</p>
+  </li>
+  <li>
+    <p>The less control and visibility your team has over a component, the less you should trust it and the more conservative you should be about accepting new versions.</p>
+  </li>
+  <li>
+    <p>Should be able to delete the artefact repository without worrying we won’t be able to regain anything valuable. We must be able to recreate each from source control.</p>
+  </li>
+  <li>
+    <p>Always keep a hash of all binaries so the source can be verified. Managing hashes is an important part of our configuration management strategy.</p>
+  </li>
+  <li>
+    <p>Maven ==&gt; GAV - groupId, artifactId, version.</p>
+  </li>
+  <li>
+    <p>Snapshots allows us to create a development version compared to a release version.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-14---advanced-version-control">CHAPTER 14 - Advanced Version Control</h5>
+
+<ul>
+  <li>
+    <p>The requirement to merge means its important to think carefully before branching.</p>
+  </li>
+  <li>
+    <p>For each branch, the organisation needs rules about the branch’s role and who can check in to it, under what circumstances.</p>
+  </li>
+  <li>
+    <p>The longer we leave a branch unmerged and the more people working on them, the more unpleasant the merge will be.</p>
+  </li>
+  <li>
+    <p>CI means checking into mainline once a day.</p>
+  </li>
+  <li>
+    <p>Industry standard to create long lived branches only on release - new work always committed to the trunk.</p>
+  </li>
+  <li>
+    <p>Git allows you to change history - a red-line in some companies.</p>
+  </li>
+  <li>
+    <p>Stream-based version control allow us to apply sets of changes to multiple branches at once. This can help in the hotfix scenario, for example.</p>
+  </li>
+  <li>
+    <p>Mainline development means ‘all ongoing development end up on a single codeline, at some time’.</p>
+  </li>
+  <li>
+    <p>Mainlien development - breaking work down into small incremental steps, always testing.</p>
+  </li>
+  <li>
+    <p>How to manage large teams of developers working on multiple releases if everything is checked into mainline? Good componentisation, incremental development, feature hiding.</p>
+  </li>
+  <li>
+    <p>Always commit to trunk and do it once a day.</p>
+  </li>
+  <li>
+    <p>Creating a branch for release IS acceptable. You have a mainline to allow developers to keep checking in changes while the release candidate is tested from code in the release branch.</p>
+  </li>
+  <li>
+    <p>Merge bugfixes made on release branch back into trunk asap.</p>
+  </li>
+  <li>
+    <p>Avoid creating further branches of your release branch (staircase structure).</p>
+  </li>
+  <li>
+    <p>Feature branches are bad ==&gt; lead to integration challenges.</p>
+  </li>
+  <li>
+    <p>Multiple feature branches is much more risky than mainline development with incremental development and/or feature hiding.</p>
+  </li>
+  <li>
+    <p>Poor version control processes are a common barrier to fast, low-risk releases.</p>
+  </li>
+  <li>
+    <p>Trunk is always the most complete and up to date statement of the state of your system, because this is what we deploy from.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h5 id="chapter-15---managing-continuous-delivery">CHAPTER 15 - Managing Continuous Delivery</h5>
+
+<ul>
+  <li>
+    <p>Implementing continuous delivery is more than just buying some tools and doing some automation work.</p>
+  </li>
+  <li>
+    <p>Achieving conformance (to rules) and performance (of delivery) is at the heart of Continuous Delivery.</p>
+  </li>
+  <li>
+    <p>Unreleased software is like stored up inventory.</p>
+  </li>
+  <li>
+    <p>PDCA - Deming cycle approach to configuration and release management maturity.</p>
+  </li>
+  <li>
+    <p>Implement change incrementally, measure the impact as we go.</p>
+  </li>
+  <li>
+    <p>Hypothesis ==&gt; Test, Repeat ==&gt; Learn.</p>
+  </li>
+  <li>
+    <p>The book focuses mainly on the ITIL phases of service transition and service operation. Release and deployment management, service testing and validation, service asset configuration and change management processes. But also, has implications for service design.</p>
+  </li>
+  <li>
+    <p>Successful projects cope with change well. Change in inevitable because we learn as we do.</p>
+  </li>
+  <li>
+    <p>Keep decisions broad-based at the start of the project and avoid going into detail during this inception phase ==&gt; waste of time.</p>
+  </li>
+  <li>
+    <p>Use the initiation phase to prove your CI/CD process and infra, by trying to release 1 simple requirement or story.</p>
+  </li>
+  <li>
+    <p>An iterative approach means ==&gt; Software is always working, as demonstrated by the automated test suites that run on check in. Software is deployed to a production like environment for showcase in each iteration, which are no longer than 2 weeks.</p>
+  </li>
+  <li>
+    <p>Keys to iterative are prioritisation and parallelization.</p>
+  </li>
+  <li>
+    <p>Iterative and incremental delivery are key to risk management in software delivery.</p>
+  </li>
+  <li>
+    <p>The deployment pipeline allows us to enforce auditing and compliance strategies while maintaining short cycle time.</p>
+  </li>
+  <li>
+    <p>The more detailed a document, the more quickly it will go out of date!</p>
+  </li>
+  <li>
+    <p>Automated scripts are the documentation of your process - ensure they are up to date and enforce that they are used.</p>
+  </li>
+  <li>
+    <p>Take hashes of binaries to prove the ones in prod are the ones that came out of our build process.</p>
+  </li>
+</ul>
+</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+    <footer class="py-5">
+  <hr>
+  <div class="container text-center text-info">
+    <div class="row">
+      <div class="col">
+        
+          <div class="social-links">
+  <!-- <a target="_blank" href="https://github.com/robertdpowell">
+    <i class="fab fa-github fa-2x"></i>
+  </a> -->
+  <a target="_blank" href="https://linkedin.com/in/robertdpowell">
+    <i class="fab fa-linkedin fa-2x"></i>
+  </a>
+  <!-- <a target="_blank" href="https://twitter.com/rdp81">
+    <i class="fab fa-twitter fa-2x"></i> -->
+  </a>
+</div>
+
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <a href="/cookies/" >Cookies</a> 
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+          © Rob Powell 2023
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<!-- JS -->
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>
